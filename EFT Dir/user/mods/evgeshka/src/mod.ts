@@ -312,7 +312,6 @@ class EvgeshkaTrader implements IPreAkiLoadMod, IPostDBLoadMod {
         ammo._props.Damage = 3;
         ammo._props.LightBleedingDelta = 0.35;
         ammo._props.Weight = 0.001;
-        
 
         mag._props.LoadUnloadModifier = -50;
         mag._props.Cartridges[0]._max_count = 120;
@@ -516,10 +515,14 @@ class EvgeshkaTrader implements IPreAkiLoadMod, IPostDBLoadMod {
         for (const item in blacklistarray) {
             fencecfg.blacklist.push(blacklistarray[item]); 
         }
-        for (const item in db.templates.handbook.Categories) {
+        for (const item in db.templates.handbook.Items) {
             if (db.templates.handbook.Items[item].Id == "5e81ebcd8e146c7080625e15") {
                 db.templates.handbook.Items[item].Price = 400000
-                break
+                continue
+            }
+            if (db.templates.handbook.Items[item].Id == "6241c316234b593b5676b637") {
+                db.templates.handbook.Items[item].Price = 3
+                continue
             }
         }
     }
