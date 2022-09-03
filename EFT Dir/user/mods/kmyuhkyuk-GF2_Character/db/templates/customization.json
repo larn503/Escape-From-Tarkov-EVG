@@ -1,0 +1,1418 @@
+{
+    "Grozaplayerdormhead11111": {
+        "_id": "Grozaplayerdormhead11111",
+        "_name": "Ots-14_Groza_head",
+        "_parent": "5cc085e214c02e000c6bea67",
+        "_props": {
+            "BodyPart": "Head",
+            "Description": "Head1",
+            "IntegratedArmorVest": false,
+            "Name": "Head1",
+            "Prefab": {
+                "path": "assets/content/characters/GF2/Groza/playerdorm/groza_head.bundle",
+                "rcid": ""
+            },
+            "ShortName": "BearHead1",
+            "Side": ["Bear", "Usec"],
+            "WatchPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "WatchPrefab": {
+                "path": "",
+                "rcid": ""
+            },
+            "WatchRotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        "_proto": "5cc084dd14c02e000b0550a3",
+        "_type": "Item"
+    },
+    "Grozaplayerdormbody11111": {
+        "_id": "Grozaplayerdormbody11111",
+        "_name": "Ots-14_Groza_body",
+        "_parent": "5cc0868e14c02e000c6bea68",
+        "_props": {
+            "BodyPart": "Body",
+            "Description": "DeafaultBearBody",
+            "IntegratedArmorVest": false,
+            "Name": "DeafaultBody",
+            "Prefab": {
+                "path": "assets/content/characters/GF2/Groza/playerdorm/groza_body.bundle",
+                "rcid": ""
+            },
+            "ShortName": "DeafaultBody",
+            "Side": ["Bear", "Usec"],
+            "WatchPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "WatchPrefab": {
+                "path": "",
+                "rcid": ""
+            },
+            "WatchRotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        "_proto": "5cc0858d14c02e000c6bea66",
+        "_type": "Item"
+    },
+    "Grozaplayerdormhands1111": {
+        "_id": "Grozaplayerdormhands1111",
+        "_name": "Ots-14_Groza_hands",
+        "_parent": "5cc086a314c02e000c6bea69",
+        "_props": {
+            "BodyPart": "Hands",
+            "Description": "DefaultBearHands",
+            "IntegratedArmorVest": false,
+            "Name": "DefaultBearHands",
+            "Prefab": {
+                "path": "assets/content/characters/GF2/Groza/playerdorm/groza_hands.bundle",
+                "rcid": ""
+            },
+            "ShortName": "DefaultBearHands",
+            "Side": ["Bear", "Usec"],
+            "WatchPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "WatchPrefab": {
+                "path": "",
+                "rcid": ""
+            },
+            "WatchRotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        "_proto": "5cc0876314c02e000c6bea6b",
+        "_type": "Item"
+    },
+    "Grozaplayerdormleg111111": {
+        "_id": "Grozaplayerdormleg111111",
+        "_name": "Ots-14_Groza_leg",
+        "_parent": "5cc0869814c02e000a4cad94",
+        "_props": {
+            "BodyPart": "Feet",
+            "Description": "DefaultBeerFeet",
+            "IntegratedArmorVest": false,
+            "Name": "DefaultBeerFeet",
+            "Prefab": {
+                "path": "assets/content/characters/GF2/Groza/playerdorm/groza_leg.bundle",
+                "rcid": ""
+            },
+            "ShortName": "DefaultBeerFeet",
+            "Side": ["Bear", "Usec"],
+            "WatchPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "WatchPrefab": {
+                "path": "",
+                "rcid": ""
+            },
+            "WatchRotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        "_proto": "5cc085bb14c02e000e67a5c5",
+        "_type": "Item"
+    },
+    "Grozaplayerdormkit111111": {
+        "_id": "Grozaplayerdormkit111111",
+        "_name": "Ots-14_Groza_kit",
+        "_parent": "5cd944ca1388ce03a44dc2a4",
+        "_props": {
+            "AvailableAsDefault": false,
+            "Body": "Grozaplayerdormbody11111",
+            "Description": "DefaultLowerSuite",
+            "Hands": "Grozaplayerdormhands1111",
+            "Name": "DefaultLowerSuite",
+            "ShortName": "DefaultLowerSuite",
+            "Side": ["Bear", "Usec"]
+        },
+        "_proto": "5cd946231388ce000d572fe3",
+        "_type": "Item"
+    },
+    "Grozaplayerdormkit222222": {
+        "_id": "Grozaplayerdormkit222222",
+        "_name": "Ots-14_Groza_kit",
+        "_parent": "5cd944d01388ce000a659df9",
+        "_props": {
+            "AvailableAsDefault": false,
+            "Description": "DefaultBearLowerSuite",
+            "Feet": "Grozaplayerdormleg111111",
+            "Name": "DefaultBearLowerSuite",
+            "ShortName": "DefaultBearLowerSuite",
+            "Side": ["Bear", "Usec"]
+        },
+        "_proto": "5cd946231388ce000d572fe3",
+        "_type": "Item"
+    },
+
+    
+    "Grozar01head111111111111": {
+        "_id": "Grozar01head111111111111",
+        "_name": "Ots-14_Groza_r01_head",
+        "_parent": "5cc085e214c02e000c6bea67",
+        "_props": {
+            "BodyPart": "Head",
+            "Description": "Head1",
+            "IntegratedArmorVest": false,
+            "Name": "Head1",
+            "Prefab": {
+                "path": "assets/content/characters/GF2/Groza/r01/groza_r01_head.bundle",
+                "rcid": ""
+            },
+            "ShortName": "BearHead1",
+            "Side": ["Bear", "Usec"],
+            "WatchPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "WatchPrefab": {
+                "path": "",
+                "rcid": ""
+            },
+            "WatchRotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        "_proto": "5cc084dd14c02e000b0550a3",
+        "_type": "Item"
+    },
+    "Grozar01body111111111111": {
+        "_id": "Grozar01body111111111111",
+        "_name": "Ots-14_Groza_r01_body",
+        "_parent": "5cc0868e14c02e000c6bea68",
+        "_props": {
+            "BodyPart": "Body",
+            "Description": "DeafaultBearBody",
+            "IntegratedArmorVest": false,
+            "Name": "DeafaultBody",
+            "Prefab": {
+                "path": "assets/content/characters/GF2/Groza/r01/groza_r01_body.bundle",
+                "rcid": ""
+            },
+            "ShortName": "DeafaultBody",
+            "Side": ["Bear", "Usec"],
+            "WatchPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "WatchPrefab": {
+                "path": "",
+                "rcid": ""
+            },
+            "WatchRotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        "_proto": "5cc0858d14c02e000c6bea66",
+        "_type": "Item"
+    },
+    "Grozar01hands11111111111": {
+        "_id": "Grozar01hands11111111111",
+        "_name": "Ots-14_Groza_r01_hands",
+        "_parent": "5cc086a314c02e000c6bea69",
+        "_props": {
+            "BodyPart": "Hands",
+            "Description": "DefaultBearHands",
+            "IntegratedArmorVest": false,
+            "Name": "DefaultBearHands",
+            "Prefab": {
+                "path": "assets/content/characters/GF2/Groza/r01/groza_r01_hands.bundle",
+                "rcid": ""
+            },
+            "ShortName": "DefaultBearHands",
+            "Side": ["Bear", "Usec"],
+            "WatchPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "WatchPrefab": {
+                "path": "",
+                "rcid": ""
+            },
+            "WatchRotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        "_proto": "5cc0876314c02e000c6bea6b",
+        "_type": "Item"
+    },
+    "Grozar01leg1111111111111": {
+        "_id": "Grozar01leg1111111111111",
+        "_name": "Ots-14_Groza_r01_leg",
+        "_parent": "5cc0869814c02e000a4cad94",
+        "_props": {
+            "BodyPart": "Feet",
+            "Description": "DefaultBeerFeet",
+            "IntegratedArmorVest": false,
+            "Name": "DefaultBeerFeet",
+            "Prefab": {
+                "path": "assets/content/characters/GF2/Groza/r01/groza_r01_leg.bundle",
+                "rcid": ""
+            },
+            "ShortName": "DefaultBeerFeet",
+            "Side": ["Bear", "Usec"],
+            "WatchPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "WatchPrefab": {
+                "path": "",
+                "rcid": ""
+            },
+            "WatchRotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        "_proto": "5cc085bb14c02e000e67a5c5",
+        "_type": "Item"
+    },
+    "Grozar01kit1111111111111": {
+        "_id": "Grozar01kit1111111111111",
+        "_name": "Ots-14_Groza_r01_kit",
+        "_parent": "5cd944ca1388ce03a44dc2a4",
+        "_props": {
+            "AvailableAsDefault": false,
+            "Body": "Grozar01body111111111111",
+            "Description": "DefaultLowerSuite",
+            "Hands": "Grozar01hands11111111111",
+            "Name": "DefaultLowerSuite",
+            "ShortName": "DefaultLowerSuite",
+            "Side": ["Bear"]
+        },
+        "_proto": "5cd946231388ce000d572fe3",
+        "_type": "Item"
+    },
+    "Grozar01kit2222222222222": {
+        "_id": "Grozar01kit2222222222222",
+        "_name": "Ots-14_Groza_r01_kit",
+        "_parent": "5cd944d01388ce000a659df9",
+        "_props": {
+            "AvailableAsDefault": false,
+            "Description": "DefaultBearLowerSuite",
+            "Feet": "Grozar01leg1111111111111",
+            "Name": "DefaultBearLowerSuite",
+            "ShortName": "DefaultBearLowerSuite",
+            "Side": ["Bear"]
+        },
+        "_proto": "5cd946231388ce000d572fe3",
+        "_type": "Item"
+    },
+
+
+    "Grozasr01head11111111111": {
+        "_id": "Grozasr01head11111111111",
+        "_name": "Ots-14_Groza_sr01_head",
+        "_parent": "5cc085e214c02e000c6bea67",
+        "_props": {
+            "BodyPart": "Head",
+            "Description": "Head1",
+            "IntegratedArmorVest": false,
+            "Name": "Head1",
+            "Prefab": {
+                "path": "assets/content/characters/GF2/Groza/sr01/groza_sr01_head.bundle",
+                "rcid": ""
+            },
+            "ShortName": "BearHead1",
+            "Side": ["Bear", "Usec"],
+            "WatchPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "WatchPrefab": {
+                "path": "",
+                "rcid": ""
+            },
+            "WatchRotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        "_proto": "5cc084dd14c02e000b0550a3",
+        "_type": "Item"
+    },
+    "Grozasr01body11111111111": {
+        "_id": "Grozasr01body11111111111",
+        "_name": "Ots-14_Groza_sr01_body",
+        "_parent": "5cc0868e14c02e000c6bea68",
+        "_props": {
+            "BodyPart": "Body",
+            "Description": "DeafaultBearBody",
+            "IntegratedArmorVest": false,
+            "Name": "DeafaultBody",
+            "Prefab": {
+                "path": "assets/content/characters/GF2/Groza/sr01/groza_sr01_body.bundle",
+                "rcid": ""
+            },
+            "ShortName": "DeafaultBody",
+            "Side": ["Bear", "Usec"],
+            "WatchPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "WatchPrefab": {
+                "path": "",
+                "rcid": ""
+            },
+            "WatchRotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        "_proto": "5cc0858d14c02e000c6bea66",
+        "_type": "Item"
+    },
+    "Grozasr01hands1111111111": {
+        "_id": "Grozasr01hands1111111111",
+        "_name": "Ots-14_Groza_sr01_hands",
+        "_parent": "5cc086a314c02e000c6bea69",
+        "_props": {
+            "BodyPart": "Hands",
+            "Description": "DefaultBearHands",
+            "IntegratedArmorVest": false,
+            "Name": "DefaultBearHands",
+            "Prefab": {
+                "path": "assets/content/characters/GF2/Groza/sr01/groza_sr01_hands.bundle",
+                "rcid": ""
+            },
+            "ShortName": "DefaultBearHands",
+            "Side": ["Bear", "Usec"],
+            "WatchPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "WatchPrefab": {
+                "path": "",
+                "rcid": ""
+            },
+            "WatchRotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        "_proto": "5cc0876314c02e000c6bea6b",
+        "_type": "Item"
+    },
+    "Grozasr01leg111111111111": {
+        "_id": "Grozasr01leg111111111111",
+        "_name": "Ots-14_Groza_sr01_leg",
+        "_parent": "5cc0869814c02e000a4cad94",
+        "_props": {
+            "BodyPart": "Feet",
+            "Description": "DefaultBeerFeet",
+            "IntegratedArmorVest": false,
+            "Name": "DefaultBeerFeet",
+            "Prefab": {
+                "path": "assets/content/characters/GF2/Groza/sr01/groza_sr01_leg.bundle",
+                "rcid": ""
+            },
+            "ShortName": "DefaultBeerFeet",
+            "Side": ["Bear", "Usec"],
+            "WatchPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "WatchPrefab": {
+                "path": "",
+                "rcid": ""
+            },
+            "WatchRotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        "_proto": "5cc085bb14c02e000e67a5c5",
+        "_type": "Item"
+    },
+    "Grozasr01kit111111111111": {
+        "_id": "Grozasr01kit111111111111",
+        "_name": "Ots-14_Groza_sr01_kit",
+        "_parent": "5cd944ca1388ce03a44dc2a4",
+        "_props": {
+            "AvailableAsDefault": false,
+            "Body": "Grozasr01body11111111111",
+            "Description": "DefaultLowerSuite",
+            "Hands": "Grozasr01hands1111111111",
+            "Name": "DefaultLowerSuite",
+            "ShortName": "DefaultLowerSuite",
+            "Side": ["Bear", "Usec"]
+        },
+        "_proto": "5cd946231388ce000d572fe3",
+        "_type": "Item"
+    },
+    "Grozasr01kit222222222222": {
+        "_id": "Grozasr01kit222222222222",
+        "_name": "Ots-14_Groza_sr01_kit",
+        "_parent": "5cd944d01388ce000a659df9",
+        "_props": {
+            "AvailableAsDefault": false,
+            "Description": "DefaultBearLowerSuite",
+            "Feet": "Grozasr01leg111111111111",
+            "Name": "DefaultBearLowerSuite",
+            "ShortName": "DefaultBearLowerSuite",
+            "Side": ["Bear", "Usec"]
+        },
+        "_proto": "5cd946231388ce000d572fe3",
+        "_type": "Item"
+    },
+    
+    
+    "Lennar01head111111111111": {
+        "_id": "Lennar01head111111111111",
+        "_name": "Ump9_Lenna_r01_head",
+        "_parent": "5cc085e214c02e000c6bea67",
+        "_props": {
+            "BodyPart": "Head",
+            "Description": "Head1",
+            "IntegratedArmorVest": false,
+            "Name": "Head1",
+            "Prefab": {
+                "path": "assets/content/characters/GF2/Lenna/r01/lenna_r01_head.bundle",
+                "rcid": ""
+            },
+            "ShortName": "BearHead1",
+            "Side": ["Bear", "Usec"],
+            "WatchPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "WatchPrefab": {
+                "path": "",
+                "rcid": ""
+            },
+            "WatchRotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        "_proto": "5cc084dd14c02e000b0550a3",
+        "_type": "Item"
+    },
+    "Lennar01body111111111111": {
+        "_id": "Lennar01body111111111111",
+        "_name": "Ump9_Lenna_r01_body",
+        "_parent": "5cc0868e14c02e000c6bea68",
+        "_props": {
+            "BodyPart": "Body",
+            "Description": "DeafaultBearBody",
+            "IntegratedArmorVest": false,
+            "Name": "DeafaultBody",
+            "Prefab": {
+                "path": "assets/content/characters/GF2/Lenna/r01/lenna_r01_body.bundle",
+                "rcid": ""
+            },
+            "ShortName": "DeafaultBody",
+            "Side": ["Bear", "Usec"],
+            "WatchPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "WatchPrefab": {
+                "path": "",
+                "rcid": ""
+            },
+            "WatchRotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        "_proto": "5cc0858d14c02e000c6bea66",
+        "_type": "Item"
+    },
+    "Lennar01hands11111111111": {
+        "_id": "Lennar01hands11111111111",
+        "_name": "Ump9_Lenna_r01_hands",
+        "_parent": "5cc086a314c02e000c6bea69",
+        "_props": {
+            "BodyPart": "Hands",
+            "Description": "DefaultBearHands",
+            "IntegratedArmorVest": false,
+            "Name": "DefaultBearHands",
+            "Prefab": {
+                "path": "assets/content/characters/GF2/Lenna/r01/lenna_r01_hands.bundle",
+                "rcid": ""
+            },
+            "ShortName": "DefaultBearHands",
+            "Side": ["Bear", "Usec"],
+            "WatchPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "WatchPrefab": {
+                "path": "",
+                "rcid": ""
+            },
+            "WatchRotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        "_proto": "5cc0876314c02e000c6bea6b",
+        "_type": "Item"
+    },
+    "Lennar01leg1111111111111": {
+        "_id": "Lennar01leg1111111111111",
+        "_name": "Ump9_Lenna_r01_leg",
+        "_parent": "5cc0869814c02e000a4cad94",
+        "_props": {
+            "BodyPart": "Feet",
+            "Description": "DefaultBeerFeet",
+            "IntegratedArmorVest": false,
+            "Name": "DefaultBeerFeet",
+            "Prefab": {
+                "path": "assets/content/characters/GF2/Lenna/r01/lenna_r01_leg.bundle",
+                "rcid": ""
+            },
+            "ShortName": "DefaultBeerFeet",
+            "Side": ["Bear", "Usec"],
+            "WatchPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "WatchPrefab": {
+                "path": "",
+                "rcid": ""
+            },
+            "WatchRotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        "_proto": "5cc085bb14c02e000e67a5c5",
+        "_type": "Item"
+    },
+    "Lennar01kit1111111111111": {
+        "_id": "Lennar01kit1111111111111",
+        "_name": "Ump9_Lenna_r01_kit",
+        "_parent": "5cd944ca1388ce03a44dc2a4",
+        "_props": {
+            "AvailableAsDefault": false,
+            "Body": "Lennar01body111111111111",
+            "Description": "DefaultLowerSuite",
+            "Hands": "Lennar01hands11111111111",
+            "Name": "DefaultLowerSuite",
+            "ShortName": "DefaultLowerSuite",
+            "Side": ["Bear", "Usec"]
+        },
+        "_proto": "5cd946231388ce000d572fe3",
+        "_type": "Item"
+    },
+    "Lennar01kit2222222222222": {
+        "_id": "Lennar01kit2222222222222",
+        "_name": "Ump9_Lenna_r01_kit",
+        "_parent": "5cd944d01388ce000a659df9",
+        "_props": {
+            "AvailableAsDefault": false,
+            "Description": "DefaultBearLowerSuite",
+            "Feet": "Lennar01leg1111111111111",
+            "Name": "DefaultBearLowerSuite",
+            "ShortName": "DefaultBearLowerSuite",
+            "Side": ["Bear", "Usec"]
+        },
+        "_proto": "5cd946231388ce000d572fe3",
+        "_type": "Item"
+    },
+
+
+    "Lennasr01head11111111111": {
+        "_id": "Lennasr01head11111111111",
+        "_name": "Ump9_Lenna_sr01_head",
+        "_parent": "5cc085e214c02e000c6bea67",
+        "_props": {
+            "BodyPart": "Head",
+            "Description": "Head1",
+            "IntegratedArmorVest": false,
+            "Name": "Head1",
+            "Prefab": {
+                "path": "assets/content/characters/GF2/Lenna/sr01/lenna_sr01_head.bundle",
+                "rcid": ""
+            },
+            "ShortName": "BearHead1",
+            "Side": ["Bear", "Usec"],
+            "WatchPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "WatchPrefab": {
+                "path": "",
+                "rcid": ""
+            },
+            "WatchRotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        "_proto": "5cc084dd14c02e000b0550a3",
+        "_type": "Item"
+    },
+    "Lennasr01body11111111111": {
+        "_id": "Lennasr01body11111111111",
+        "_name": "Ump9_Lenna_sr01_body",
+        "_parent": "5cc0868e14c02e000c6bea68",
+        "_props": {
+            "BodyPart": "Body",
+            "Description": "DeafaultBearBody",
+            "IntegratedArmorVest": false,
+            "Name": "DeafaultBody",
+            "Prefab": {
+                "path": "assets/content/characters/GF2/Lenna/sr01/lenna_sr01_body.bundle",
+                "rcid": ""
+            },
+            "ShortName": "DeafaultBody",
+            "Side": ["Bear", "Usec"],
+            "WatchPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "WatchPrefab": {
+                "path": "",
+                "rcid": ""
+            },
+            "WatchRotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        "_proto": "5cc0858d14c02e000c6bea66",
+        "_type": "Item"
+    },
+    "Lennasr01hands1111111111": {
+        "_id": "Lennasr01hands1111111111",
+        "_name": "Ump9_Lenna_sr01_hands",
+        "_parent": "5cc086a314c02e000c6bea69",
+        "_props": {
+            "BodyPart": "Hands",
+            "Description": "DefaultBearHands",
+            "IntegratedArmorVest": false,
+            "Name": "DefaultBearHands",
+            "Prefab": {
+                "path": "assets/content/characters/GF2/Lenna/sr01/lenna_sr01_hands.bundle",
+                "rcid": ""
+            },
+            "ShortName": "DefaultBearHands",
+            "Side": ["Bear", "Usec"],
+            "WatchPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "WatchPrefab": {
+                "path": "",
+                "rcid": ""
+            },
+            "WatchRotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        "_proto": "5cc0876314c02e000c6bea6b",
+        "_type": "Item"
+    },
+    "Lennasr01leg111111111111": {
+        "_id": "Lennasr01leg111111111111",
+        "_name": "Ump9_Lenna_sr01_leg",
+        "_parent": "5cc0869814c02e000a4cad94",
+        "_props": {
+            "BodyPart": "Feet",
+            "Description": "DefaultBeerFeet",
+            "IntegratedArmorVest": false,
+            "Name": "DefaultBeerFeet",
+            "Prefab": {
+                "path": "assets/content/characters/GF2/Lenna/sr01/lenna_sr01_leg.bundle",
+                "rcid": ""
+            },
+            "ShortName": "DefaultBeerFeet",
+            "Side": ["Bear", "Usec"],
+            "WatchPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "WatchPrefab": {
+                "path": "",
+                "rcid": ""
+            },
+            "WatchRotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        "_proto": "5cc085bb14c02e000e67a5c5",
+        "_type": "Item"
+    },
+    "Lennasr01kit111111111111": {
+        "_id": "Lennasr01kit111111111111",
+        "_name": "Ump9_Lenna_sr01_kit",
+        "_parent": "5cd944ca1388ce03a44dc2a4",
+        "_props": {
+            "AvailableAsDefault": false,
+            "Body": "Lennasr01body11111111111",
+            "Description": "DefaultLowerSuite",
+            "Hands": "Lennasr01hands1111111111",
+            "Name": "DefaultLowerSuite",
+            "ShortName": "DefaultLowerSuite",
+            "Side": ["Bear", "Usec"]
+        },
+        "_proto": "5cd946231388ce000d572fe3",
+        "_type": "Item"
+    },
+    "Lennasr01kit222222222222": {
+        "_id": "Lennasr01kit222222222222",
+        "_name": "Ump9_Lenna_sr01_kit",
+        "_parent": "5cd944d01388ce000a659df9",
+        "_props": {
+            "AvailableAsDefault": false,
+            "Description": "DefaultBearLowerSuite",
+            "Feet": "Lennasr01leg111111111111",
+            "Name": "DefaultBearLowerSuite",
+            "ShortName": "DefaultBearLowerSuite",
+            "Side": ["Bear", "Usec"]
+        },
+        "_proto": "5cd946231388ce000d572fe3",
+        "_type": "Item"
+    },
+    "Lennasr01bodyshortcape11": {
+        "_id": "Lennasr01bodyshortcape11",
+        "_name": "Ump9_Lenna_sr01_shortcape_body",
+        "_parent": "5cc0868e14c02e000c6bea68",
+        "_props": {
+            "BodyPart": "Body",
+            "Description": "DeafaultBearBody",
+            "IntegratedArmorVest": false,
+            "Name": "DeafaultBody",
+            "Prefab": {
+                "path": "assets/content/characters/GF2/Lenna/sr01/lenna_sr01_body_short_cape.bundle",
+                "rcid": ""
+            },
+            "ShortName": "DeafaultBody",
+            "Side": ["Bear", "Usec"],
+            "WatchPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "WatchPrefab": {
+                "path": "",
+                "rcid": ""
+            },
+            "WatchRotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        "_proto": "5cc0858d14c02e000c6bea66",
+        "_type": "Item"
+    },
+    "Lennasr01shortcapekit111": {
+        "_id": "Lennasr01shortcapekit111",
+        "_name": "Ump9_Lenna_sr01_shortcape_kit",
+        "_parent": "5cd944ca1388ce03a44dc2a4",
+        "_props": {
+            "AvailableAsDefault": false,
+            "Body": "Lennasr01bodyshortcape11",
+            "Description": "DefaultLowerSuite",
+            "Hands": "Lennasr01hands1111111111",
+            "Name": "DefaultLowerSuite",
+            "ShortName": "DefaultLowerSuite",
+            "Side": ["Bear", "Usec"]
+        },
+        "_proto": "5cd946231388ce000d572fe3",
+        "_type": "Item"
+    },
+
+
+    "Charolicr01head111111111": {
+        "_id": "Charolicr01head111111111",
+        "_name": "Charolic_r01_head",
+        "_parent": "5cc085e214c02e000c6bea67",
+        "_props": {
+            "BodyPart": "Head",
+            "Description": "Head1",
+            "IntegratedArmorVest": false,
+            "Name": "Head1",
+            "Prefab": {
+                "path": "assets/content/characters/GF2/Charolic/r01/charolic_r01_head.bundle",
+                "rcid": ""
+            },
+            "ShortName": "BearHead1",
+            "Side": ["Bear", "Usec"],
+            "WatchPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "WatchPrefab": {
+                "path": "",
+                "rcid": ""
+            },
+            "WatchRotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        "_proto": "5cc084dd14c02e000b0550a3",
+        "_type": "Item"
+    },
+    "Charolicr01body111111111": {
+        "_id": "Charolicr01body111111111",
+        "_name": "Charolic_r01_body",
+        "_parent": "5cc0868e14c02e000c6bea68",
+        "_props": {
+            "BodyPart": "Body",
+            "Description": "DeafaultBearBody",
+            "IntegratedArmorVest": false,
+            "Name": "DeafaultBody",
+            "Prefab": {
+                "path": "assets/content/characters/GF2/Charolic/r01/charolic_r01_body.bundle",
+                "rcid": ""
+            },
+            "ShortName": "DeafaultBody",
+            "Side": ["Bear", "Usec"],
+            "WatchPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "WatchPrefab": {
+                "path": "",
+                "rcid": ""
+            },
+            "WatchRotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        "_proto": "5cc0858d14c02e000c6bea66",
+        "_type": "Item"
+    },
+    "Charolicr01hands11111111": {
+        "_id": "Charolicr01hands11111111",
+        "_name": "Charolic_r01_hands",
+        "_parent": "5cc086a314c02e000c6bea69",
+        "_props": {
+            "BodyPart": "Hands",
+            "Description": "DefaultBearHands",
+            "IntegratedArmorVest": false,
+            "Name": "DefaultBearHands",
+            "Prefab": {
+                "path": "assets/content/characters/GF2/Charolic/r01/charolic_r01_hands.bundle",
+                "rcid": ""
+            },
+            "ShortName": "DefaultBearHands",
+            "Side": ["Bear", "Usec"],
+            "WatchPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "WatchPrefab": {
+                "path": "",
+                "rcid": ""
+            },
+            "WatchRotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        "_proto": "5cc0876314c02e000c6bea6b",
+        "_type": "Item"
+    },
+    "Charolicr01leg1111111111": {
+        "_id": "Charolicr01leg1111111111",
+        "_name": "Charolic_r01_leg",
+        "_parent": "5cc0869814c02e000a4cad94",
+        "_props": {
+            "BodyPart": "Feet",
+            "Description": "DefaultBeerFeet",
+            "IntegratedArmorVest": false,
+            "Name": "DefaultBeerFeet",
+            "Prefab": {
+                "path": "assets/content/characters/GF2/Charolic/r01/charolic_r01_leg.bundle",
+                "rcid": ""
+            },
+            "ShortName": "DefaultBeerFeet",
+            "Side": ["Bear", "Usec"],
+            "WatchPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "WatchPrefab": {
+                "path": "",
+                "rcid": ""
+            },
+            "WatchRotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        "_proto": "5cc085bb14c02e000e67a5c5",
+        "_type": "Item"
+    },
+    "Charolicr01kit1111111111": {
+        "_id": "Charolicr01kit1111111111",
+        "_name": "Charolic_r01_kit",
+        "_parent": "5cd944ca1388ce03a44dc2a4",
+        "_props": {
+            "AvailableAsDefault": false,
+            "Body": "Charolicr01body111111111",
+            "Description": "DefaultLowerSuite",
+            "Hands": "Charolicr01hands11111111",
+            "Name": "DefaultLowerSuite",
+            "ShortName": "DefaultLowerSuite",
+            "Side": ["Usec"]
+        },
+        "_proto": "5cd946231388ce000d572fe3",
+        "_type": "Item"
+    },
+    "Charolicr01kit2222222222": {
+        "_id": "Charolicr01kit2222222222",
+        "_name": "Charolic_r01_kit",
+        "_parent": "5cd944d01388ce000a659df9",
+        "_props": {
+            "AvailableAsDefault": false,
+            "Description": "DefaultBearLowerSuite",
+            "Feet": "Charolicr01leg1111111111",
+            "Name": "DefaultBearLowerSuite",
+            "ShortName": "DefaultBearLowerSuite",
+            "Side": ["Usec"]
+        },
+        "_proto": "5cd946231388ce000d572fe3",
+        "_type": "Item"
+    },
+
+
+    "Charolicsr01head11111111": {
+        "_id": "Charolicsr01head11111111",
+        "_name": "Charolic_sr01_head",
+        "_parent": "5cc085e214c02e000c6bea67",
+        "_props": {
+            "BodyPart": "Head",
+            "Description": "Head1",
+            "IntegratedArmorVest": false,
+            "Name": "Head1",
+            "Prefab": {
+                "path": "assets/content/characters/GF2/Charolic/sr01/charolic_sr01_head.bundle",
+                "rcid": ""
+            },
+            "ShortName": "BearHead1",
+            "Side": ["Bear", "Usec"],
+            "WatchPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "WatchPrefab": {
+                "path": "",
+                "rcid": ""
+            },
+            "WatchRotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        "_proto": "5cc084dd14c02e000b0550a3",
+        "_type": "Item"
+    },
+    "Charolicsr01body11111111": {
+        "_id": "Charolicsr01body11111111",
+        "_name": "Charolic_sr01_body",
+        "_parent": "5cc0868e14c02e000c6bea68",
+        "_props": {
+            "BodyPart": "Body",
+            "Description": "DeafaultBearBody",
+            "IntegratedArmorVest": false,
+            "Name": "DeafaultBody",
+            "Prefab": {
+                "path": "assets/content/characters/GF2/Charolic/sr01/charolic_sr01_body.bundle",
+                "rcid": ""
+            },
+            "ShortName": "DeafaultBody",
+            "Side": ["Bear", "Usec"],
+            "WatchPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "WatchPrefab": {
+                "path": "",
+                "rcid": ""
+            },
+            "WatchRotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        "_proto": "5cc0858d14c02e000c6bea66",
+        "_type": "Item"
+    },
+    "Charolicsr01hands1111111": {
+        "_id": "Charolicsr01hands1111111",
+        "_name": "Charolic_sr01_hands",
+        "_parent": "5cc086a314c02e000c6bea69",
+        "_props": {
+            "BodyPart": "Hands",
+            "Description": "DefaultBearHands",
+            "IntegratedArmorVest": false,
+            "Name": "DefaultBearHands",
+            "Prefab": {
+                "path": "assets/content/characters/GF2/Charolic/sr01/charolic_sr01_hands.bundle",
+                "rcid": ""
+            },
+            "ShortName": "DefaultBearHands",
+            "Side": ["Bear", "Usec"],
+            "WatchPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "WatchPrefab": {
+                "path": "",
+                "rcid": ""
+            },
+            "WatchRotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        "_proto": "5cc0876314c02e000c6bea6b",
+        "_type": "Item"
+    },
+    "Charolicsr01leg111111111": {
+        "_id": "Charolicsr01leg111111111",
+        "_name": "Charolic_sr01_leg",
+        "_parent": "5cc0869814c02e000a4cad94",
+        "_props": {
+            "BodyPart": "Feet",
+            "Description": "DefaultBeerFeet",
+            "IntegratedArmorVest": false,
+            "Name": "DefaultBeerFeet",
+            "Prefab": {
+                "path": "assets/content/characters/GF2/Charolic/sr01/charolic_sr01_leg.bundle",
+                "rcid": ""
+            },
+            "ShortName": "DefaultBeerFeet",
+            "Side": ["Bear", "Usec"],
+            "WatchPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "WatchPrefab": {
+                "path": "",
+                "rcid": ""
+            },
+            "WatchRotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        "_proto": "5cc085bb14c02e000e67a5c5",
+        "_type": "Item"
+    },
+    "Charolicsr01kit111111111": {
+        "_id": "Charolicsr01kit111111111",
+        "_name": "Charolic_sr01_kit",
+        "_parent": "5cd944ca1388ce03a44dc2a4",
+        "_props": {
+            "AvailableAsDefault": false,
+            "Body": "Charolicsr01body11111111",
+            "Description": "DefaultLowerSuite",
+            "Hands": "Charolicsr01hands1111111",
+            "Name": "DefaultLowerSuite",
+            "ShortName": "DefaultLowerSuite",
+            "Side": ["Bear", "Usec"]
+        },
+        "_proto": "5cd946231388ce000d572fe3",
+        "_type": "Item"
+    },
+    "Charolicsr01kit222222222": {
+        "_id": "Charolicsr01kit222222222",
+        "_name": "Charolic_sr01_kit",
+        "_parent": "5cd944d01388ce000a659df9",
+        "_props": {
+            "AvailableAsDefault": false,
+            "Description": "DefaultBearLowerSuite",
+            "Feet": "Charolicsr01leg111111111",
+            "Name": "DefaultBearLowerSuite",
+            "ShortName": "DefaultBearLowerSuite",
+            "Side": ["Bear", "Usec"]
+        },
+        "_proto": "5cd946231388ce000d572fe3",
+        "_type": "Item"
+    },
+    "Charolicsr01bodynoshield": {
+        "_id": "Charolicsr01bodynoshield",
+        "_name": "Charolic_sr01_no_shield_body",
+        "_parent": "5cc0868e14c02e000c6bea68",
+        "_props": {
+            "BodyPart": "Body",
+            "Description": "DeafaultBearBody",
+            "IntegratedArmorVest": false,
+            "Name": "DeafaultBody",
+            "Prefab": {
+                "path": "assets/content/characters/GF2/Charolic/sr01/charolic_sr01_body_no_shield.bundle",
+                "rcid": ""
+            },
+            "ShortName": "DeafaultBody",
+            "Side": ["Bear", "Usec"],
+            "WatchPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "WatchPrefab": {
+                "path": "",
+                "rcid": ""
+            },
+            "WatchRotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        "_proto": "5cc0858d14c02e000c6bea66",
+        "_type": "Item"
+    },
+    "Charolicsr01noshieldkit1": {
+        "_id": "Charolicsr01noshieldkit1",
+        "_name": "Charolic_sr01_kit",
+        "_parent": "5cd944ca1388ce03a44dc2a4",
+        "_props": {
+            "AvailableAsDefault": false,
+            "Body": "Charolicsr01bodynoshield",
+            "Description": "DefaultLowerSuite",
+            "Hands": "Charolicsr01hands1111111",
+            "Name": "DefaultLowerSuite",
+            "ShortName": "DefaultLowerSuite",
+            "Side": ["Bear", "Usec"]
+        },
+        "_proto": "5cd946231388ce000d572fe3",
+        "_type": "Item"
+    },
+
+
+    "Charolicssr01head1111111": {
+        "_id": "Charolicssr01head1111111",
+        "_name": "Charolic_ssr01_head",
+        "_parent": "5cc085e214c02e000c6bea67",
+        "_props": {
+            "BodyPart": "Head",
+            "Description": "Head1",
+            "IntegratedArmorVest": false,
+            "Name": "Head1",
+            "Prefab": {
+                "path": "assets/content/characters/GF2/Charolic/ssr01/charolic_ssr01_head.bundle",
+                "rcid": ""
+            },
+            "ShortName": "BearHead1",
+            "Side": ["Bear", "Usec"],
+            "WatchPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "WatchPrefab": {
+                "path": "",
+                "rcid": ""
+            },
+            "WatchRotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        "_proto": "5cc084dd14c02e000b0550a3",
+        "_type": "Item"
+    },
+    "Charolicssr01body1111111": {
+        "_id": "Charolicssr01body1111111",
+        "_name": "Charolic_ssr01_body",
+        "_parent": "5cc0868e14c02e000c6bea68",
+        "_props": {
+            "BodyPart": "Body",
+            "Description": "DeafaultBearBody",
+            "IntegratedArmorVest": false,
+            "Name": "DeafaultBody",
+            "Prefab": {
+                "path": "assets/content/characters/GF2/Charolic/ssr01/charolic_ssr01_body.bundle",
+                "rcid": ""
+            },
+            "ShortName": "DeafaultBody",
+            "Side": ["Bear", "Usec"],
+            "WatchPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "WatchPrefab": {
+                "path": "",
+                "rcid": ""
+            },
+            "WatchRotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        "_proto": "5cc0858d14c02e000c6bea66",
+        "_type": "Item"
+    },
+    "Charolicssr01hands111111": {
+        "_id": "Charolicssr01hands111111",
+        "_name": "Charolic_ssr01_hands",
+        "_parent": "5cc086a314c02e000c6bea69",
+        "_props": {
+            "BodyPart": "Hands",
+            "Description": "DefaultBearHands",
+            "IntegratedArmorVest": false,
+            "Name": "DefaultBearHands",
+            "Prefab": {
+                "path": "assets/content/characters/GF2/Charolic/ssr01/charolic_ssr01_hands.bundle",
+                "rcid": ""
+            },
+            "ShortName": "DefaultBearHands",
+            "Side": ["Bear", "Usec"],
+            "WatchPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "WatchPrefab": {
+                "path": "",
+                "rcid": ""
+            },
+            "WatchRotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        "_proto": "5cc0876314c02e000c6bea6b",
+        "_type": "Item"
+    },
+    "Charolicssr01leg11111111": {
+        "_id": "Charolicssr01leg11111111",
+        "_name": "Charolic_ssr01_leg",
+        "_parent": "5cc0869814c02e000a4cad94",
+        "_props": {
+            "BodyPart": "Feet",
+            "Description": "DefaultBeerFeet",
+            "IntegratedArmorVest": false,
+            "Name": "DefaultBeerFeet",
+            "Prefab": {
+                "path": "assets/content/characters/GF2/Charolic/ssr01/charolic_ssr01_leg.bundle",
+                "rcid": ""
+            },
+            "ShortName": "DefaultBeerFeet",
+            "Side": ["Bear", "Usec"],
+            "WatchPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "WatchPrefab": {
+                "path": "",
+                "rcid": ""
+            },
+            "WatchRotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        "_proto": "5cc085bb14c02e000e67a5c5",
+        "_type": "Item"
+    },
+    "Charolicssr01kit11111111": {
+        "_id": "Charolicssr01kit11111111",
+        "_name": "Charolic_ssr01_kit",
+        "_parent": "5cd944ca1388ce03a44dc2a4",
+        "_props": {
+            "AvailableAsDefault": false,
+            "Body": "Charolicssr01body1111111",
+            "Description": "DefaultLowerSuite",
+            "Hands": "Charolicssr01hands111111",
+            "Name": "DefaultLowerSuite",
+            "ShortName": "DefaultLowerSuite",
+            "Side": ["Bear", "Usec"]
+        },
+        "_proto": "5cd946231388ce000d572fe3",
+        "_type": "Item"
+    },
+    "Charolicssr01kit22222222": {
+        "_id": "Charolicssr01kit22222222",
+        "_name": "Charolic_ssr01_kit",
+        "_parent": "5cd944d01388ce000a659df9",
+        "_props": {
+            "AvailableAsDefault": false,
+            "Description": "DefaultBearLowerSuite",
+            "Feet": "Charolicssr01leg11111111",
+            "Name": "DefaultBearLowerSuite",
+            "ShortName": "DefaultBearLowerSuite",
+            "Side": ["Bear", "Usec"]
+        },
+        "_proto": "5cd946231388ce000d572fe3",
+        "_type": "Item"
+    }
+}

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "h4IZOOdhtnGH02pFZORgOHLeZShPMAZF+ljbiP8VokGSntqXRUv8YRGw7XSi293rLoztsH96hQ5ZytCjahJBSg==",
+  "success": true,
+  "projectFilePath": "D:\\UnityProjects\\Plugin\\Lua-ScavMapAccessKeyPatcher\\Lua-ScavMapAccessKeyPatcher.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\valer\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\valer\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

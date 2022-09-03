@@ -1,0 +1,104 @@
+{
+    "factory4_day": {
+        "BossName": "followerTest",
+        "BossChance": 5,
+        "BossZone": "BotZone",
+        "BossPlayer": false,
+        "BossDifficult": "normal",
+        "BossEscortType": "followerBully",
+        "BossEscortDifficult": "normal",
+        "BossEscortAmount": "0",
+        "Time": -1
+    },
+    "factory4_night": {
+        "BossName": "followerTest",
+        "BossChance": 6,
+        "BossZone": "BotZone",
+        "BossPlayer": false,
+        "BossDifficult": "normal",
+        "BossEscortType": "followerBully",
+        "BossEscortDifficult": "normal",
+        "BossEscortAmount": "0",
+        "Time": -1
+    },
+    "bigmap": {
+        "BossName": "followerTest",
+        "BossChance": 8,
+        "BossZone": "ZoneDormitory,ZoneGasStation,ZoneScavBase,ZoneBlockPost,ZoneOldAZS,ZoneWade,ZoneBrige,ZoneTankSquare,ZoneFactoryCenter,ZoneFactorySide,ZoneCrossRoad,ZoneCustoms",
+        "BossPlayer": false,
+        "BossDifficult": "normal",
+        "BossEscortType": "followerBully",
+        "BossEscortDifficult": "normal",
+        "BossEscortAmount": "0",
+        "Time": -1
+    },
+    "interchange": {
+        "BossName": "followerTest",
+        "BossChance": 8,
+        "BossZone": "ZoneCenterBot,ZoneCenter,ZoneOLI,ZoneIDEA,ZoneGoshan,ZoneIDEAPark,ZoneOLIPark,ZoneTrucks,ZonePowerStation,ZoneRoad",
+        "BossPlayer": false,
+        "BossDifficult": "normal",
+        "BossEscortType": "followerBully",
+        "BossEscortDifficult": "normal",
+        "BossEscortAmount": "0",
+        "Time": -1
+    },
+    "woods": {
+        "BossName": "followerTest",
+        "BossChance": 8,
+        "BossZone": "ZoneClearVill,ZoneScavBase2,ZoneHouse,ZoneWoodCutter,ZoneBigRocks,ZoneRoad,ZoneHighRocks,ZoneMiniHouse,ZoneRedHouse,ZoneBrokenVill",
+        "BossPlayer": false,
+        "BossDifficult": "normal",
+        "BossEscortType": "followerBully",
+        "BossEscortDifficult": "normal",
+        "BossEscortAmount": "0",
+        "Time": -1
+    },
+    "shoreline": {
+        "BossName": "followerTest",
+        "BossChance": 8,
+        "BossZone": "ZoneIsland,ZoneGasStation,ZoneMeteoStation,ZonePowerStation,ZoneBusStation,ZoneRailWays,ZonePort,ZoneForestTruck,ZoneForestSpawn,ZoneSanatorium1,ZoneSanatorium2,ZoneForestGasStation,ZoneGreenHouses",
+        "BossPlayer": false,
+        "BossDifficult": "normal",
+        "BossEscortType": "followerBully",
+        "BossEscortDifficult": "normal",
+        "BossEscortAmount": "0",
+        "Time": -1
+    },
+    "rezervbase": {
+        "BossName": "followerTest",
+        "BossChance": 8,
+        "BossZone": "ZoneRailStrorage,ZonePTOR1,ZonePTOR2,ZoneBarrack,ZoneBunkerStorage,ZoneSubStorage,ZoneSubCommand",
+        "BossPlayer": false,
+        "BossDifficult": "normal",
+        "BossEscortType": "followerBully",
+        "BossEscortDifficult": "normal",
+        "BossEscortAmount": "0",
+        "Time": -1
+    },
+    "lighthouse": {
+        "BossName": "followerTest",
+        "BossChance": 8,
+        "BossZone": "Zone_Containers,Zone_Rocks,Zone_Chalet,Zone_Village,Zone_Bridge,Zone_OldHouse,Zone_LongRoad,Zone_DestroyedHouse,Zone_TreatmentContainers",
+        "BossPlayer": false,
+        "BossDifficult": "normal",
+        "BossEscortType": "followerBully",
+        "BossEscortDifficult": "normal",
+        "BossEscortAmount": "0",
+        "Time": -1
+    },
+    "laboratory": {
+        "BossName": "followerTest",
+        "BossChance": 28,
+        "BossZone": "BotZoneFloor1,BotZoneFloor2,BotZoneBasement",
+        "BossPlayer": false,
+        "BossDifficult": "normal",
+        "BossEscortType": "followerBully",
+        "BossEscortDifficult": "normal",
+        "BossEscortAmount": "0",
+        "Time": -1,
+        "TriggerId": "",
+        "TriggerName": "none",
+        "Delay": 0
+    }
+}

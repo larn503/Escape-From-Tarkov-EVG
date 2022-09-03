@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\Lua-ScavMapKeyAccessPatcher"
+		},
+		{
+			"path": "..\\Lua-PlayerBossScav"
+		},
+		{
+			"path": "..\\kmyuhkyuk-GF2_Character"
+		}
+	],
+	"extensions": {
+		"recommendations": [
+			"dbaeumer.vscode-eslint"
+		]
+	}
+}

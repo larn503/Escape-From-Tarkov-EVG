@@ -1,0 +1,56 @@
+{
+	"bigmap":
+	{
+		"RemoveAccessKeyAfterRaid": true,
+		"DisabledForScav": false,
+		"AccessKey": "5d40407c86f774318526545a"
+	},
+	"factory4_day":
+	{
+		"RemoveAccessKeyAfterRaid": false,
+		"DisabledForScav": true,
+		"AccessKey": ""
+	},
+	"factory4_night":
+	{
+		"RemoveAccessKeyAfterRaid": false,
+		"DisabledForScav": true,
+		"AccessKey": ""
+	},
+	"interchange":
+	{
+		"RemoveAccessKeyAfterRaid": true,
+		"DisabledForScav": false,
+		"AccessKey": "5d40407c86f774318526545a"
+	},
+	"laboratory":
+	{
+		"RemoveAccessKeyAfterRaid": false,
+		"DisabledForScav": true,
+		"AccessKey": ""
+	},
+	"lighthouse":
+	{
+		"RemoveAccessKeyAfterRaid": true,
+		"DisabledForScav": false,
+		"AccessKey": "5d40407c86f774318526545a"
+	},
+	"rezervbase":
+	{
+		"RemoveAccessKeyAfterRaid": true,
+		"DisabledForScav": false,
+		"AccessKey": "5d40407c86f774318526545a"
+	},
+	"shoreline":
+	{
+		"RemoveAccessKeyAfterRaid": true,
+		"DisabledForScav": false,
+		"AccessKey": "5d40407c86f774318526545a"
+	},
+	"woods":
+	{
+		"RemoveAccessKeyAfterRaid": true,
+		"DisabledForScav": false,
+		"AccessKey": "5d40407c86f774318526545a"
+	}
+}

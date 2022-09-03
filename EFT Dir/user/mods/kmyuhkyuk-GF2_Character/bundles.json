@@ -1,0 +1,303 @@
+{
+	"manifest": [
+		{
+			"key": "assets/content/characters/GF2/Groza/playerdorm/groza_playerdorm_tex.bundle",
+			"dependencyKeys": []
+		},
+		{
+			"key": "assets/content/characters/GF2/Groza/playerdorm/groza_playerdorm_mat.bundle",
+			"dependencyKeys": [
+				"assets/content/characters/GF2/Groza/playerdorm/groza_playerdorm_tex.bundle",
+				"assets/builtin_shader"
+			]
+		},
+		{
+			"key": "assets/content/characters/GF2/Groza/playerdorm/groza_head.bundle",
+			"dependencyKeys": [
+				"assets/content/characters/GF2/Groza/playerdorm/groza_playerdorm_mat.bundle"
+			]
+		},
+		{
+			"key": "assets/content/characters/GF2/Groza/playerdorm/groza_body.bundle",
+			"dependencyKeys": [
+				"assets/content/characters/GF2/Groza/playerdorm/groza_playerdorm_mat.bundle"
+			]
+		},
+		{
+			"key": "assets/content/characters/GF2/Groza/playerdorm/groza_hands.bundle",
+			"dependencyKeys": [
+				"assets/content/characters/GF2/Groza/playerdorm/groza_playerdorm_mat.bundle"
+			]
+		},
+		{
+			"key": "assets/content/characters/GF2/Groza/playerdorm/groza_leg.bundle",
+			"dependencyKeys": [
+				"assets/content/characters/GF2/Groza/playerdorm/groza_playerdorm_mat.bundle"
+			]
+		},
+		
+		{
+			"key": "assets/content/characters/GF2/Groza/r01/groza_r01_tex.bundle",
+			"dependencyKeys": []
+		},
+		{
+			"key": "assets/content/characters/GF2/Groza/r01/groza_r01_mat.bundle",
+			"dependencyKeys": [
+				"assets/content/characters/GF2/Groza/r01/groza_r01_tex.bundle",
+				"assets/builtin_shader"
+			]
+		},
+		{
+			"key": "assets/content/characters/GF2/Groza/r01/groza_r01_head.bundle",
+			"dependencyKeys": [
+				"assets/content/characters/GF2/Groza/r01/groza_r01_mat.bundle"
+			]
+		},
+		{
+			"key": "assets/content/characters/GF2/Groza/r01/groza_r01_body.bundle",
+			"dependencyKeys": [
+				"assets/content/characters/GF2/Groza/r01/groza_r01_mat.bundle"
+			]
+		},
+		{
+			"key": "assets/content/characters/GF2/Groza/r01/groza_r01_hands.bundle",
+			"dependencyKeys": [
+				"assets/content/characters/GF2/Groza/r01/groza_r01_mat.bundle"
+			]
+		},
+		{
+			"key": "assets/content/characters/GF2/Groza/r01/groza_r01_leg.bundle",
+			"dependencyKeys": [
+				"assets/content/characters/GF2/Groza/r01/groza_r01_mat.bundle"
+			]
+		},
+
+		{
+			"key": "assets/content/characters/GF2/Groza/sr01/groza_sr01_tex.bundle",
+			"dependencyKeys": []
+		},
+		{
+			"key": "assets/content/characters/GF2/Groza/sr01/groza_sr01_mat.bundle",
+			"dependencyKeys": [
+				"assets/content/characters/GF2/Groza/sr01/groza_sr01_tex.bundle",
+				"assets/builtin_shader"
+			]
+		},
+		{
+			"key": "assets/content/characters/GF2/Groza/sr01/groza_sr01_head.bundle",
+			"dependencyKeys": [
+				"assets/content/characters/GF2/Groza/sr01/groza_sr01_mat.bundle"
+			]
+		},
+		{
+			"key": "assets/content/characters/GF2/Groza/sr01/groza_sr01_body.bundle",
+			"dependencyKeys": [
+				"assets/content/characters/GF2/Groza/sr01/groza_sr01_mat.bundle"
+			]
+		},
+		{
+			"key": "assets/content/characters/GF2/Groza/sr01/groza_sr01_hands.bundle",
+			"dependencyKeys": [
+				"assets/content/characters/GF2/Groza/sr01/groza_sr01_mat.bundle"
+			]
+		},
+		{
+			"key": "assets/content/characters/GF2/Groza/sr01/groza_sr01_leg.bundle",
+			"dependencyKeys": [
+				"assets/content/characters/GF2/Groza/sr01/groza_sr01_mat.bundle"
+			]
+		},
+		
+		{
+			"key": "assets/content/characters/GF2/Lenna/r01/lenna_r01_tex.bundle",
+			"dependencyKeys": []
+		},
+		{
+			"key": "assets/content/characters/GF2/Lenna/r01/lenna_r01_mat.bundle",
+			"dependencyKeys": [
+				"assets/content/characters/GF2/Lenna/r01/lenna_r01_tex.bundle",
+				"assets/builtin_shader"
+			]
+		},
+		{
+			"key": "assets/content/characters/GF2/Lenna/r01/lenna_r01_head.bundle",
+			"dependencyKeys": [
+				"assets/content/characters/GF2/Lenna/r01/lenna_r01_mat.bundle"
+			]
+		},
+		{
+			"key": "assets/content/characters/GF2/Lenna/r01/lenna_r01_body.bundle",
+			"dependencyKeys": [
+				"assets/content/characters/GF2/Lenna/r01/lenna_r01_mat.bundle"
+			]
+		},
+		{
+			"key": "assets/content/characters/GF2/Lenna/r01/lenna_r01_hands.bundle",
+			"dependencyKeys": [
+				"assets/content/characters/GF2/Lenna/r01/lenna_r01_mat.bundle"
+			]
+		},
+		{
+			"key": "assets/content/characters/GF2/Lenna/r01/lenna_r01_leg.bundle",
+			"dependencyKeys": [
+				"assets/content/characters/GF2/Lenna/r01/lenna_r01_mat.bundle"
+			]
+		},
+
+		{
+			"key": "assets/content/characters/GF2/Lenna/sr01/lenna_sr01_tex.bundle",
+			"dependencyKeys": []
+		},
+		{
+			"key": "assets/content/characters/GF2/Lenna/sr01/lenna_sr01_mat.bundle",
+			"dependencyKeys": [
+				"assets/content/characters/GF2/Lenna/sr01/lenna_sr01_tex.bundle",
+				"assets/builtin_shader"
+			]
+		},
+		{
+			"key": "assets/content/characters/GF2/Lenna/sr01/lenna_sr01_head.bundle",
+			"dependencyKeys": [
+				"assets/content/characters/GF2/Lenna/sr01/lenna_sr01_mat.bundle"
+			]
+		},
+		{
+			"key": "assets/content/characters/GF2/Lenna/sr01/lenna_sr01_body.bundle",
+			"dependencyKeys": [
+				"assets/content/characters/GF2/Lenna/sr01/lenna_sr01_mat.bundle"
+			]
+		},
+		{
+			"key": "assets/content/characters/GF2/Lenna/sr01/lenna_sr01_hands.bundle",
+			"dependencyKeys": [
+				"assets/content/characters/GF2/Lenna/sr01/lenna_sr01_mat.bundle"
+			]
+		},
+		{
+			"key": "assets/content/characters/GF2/Lenna/sr01/lenna_sr01_leg.bundle",
+			"dependencyKeys": [
+				"assets/content/characters/GF2/Lenna/sr01/lenna_sr01_mat.bundle"
+			]
+		},
+		{
+			"key": "assets/content/characters/GF2/Lenna/sr01/lenna_sr01_body_short_cape.bundle",
+			"dependencyKeys": [
+				"assets/content/characters/GF2/Lenna/sr01/lenna_sr01_mat.bundle"
+			]
+		},
+
+		{
+			"key": "assets/content/characters/GF2/Charolic/r01/charolic_r01_tex.bundle",
+			"dependencyKeys": []
+		},
+		{
+			"key": "assets/content/characters/GF2/Charolic/r01/charolic_r01_mat.bundle",
+			"dependencyKeys": [
+				"assets/content/characters/GF2/Charolic/r01/charolic_r01_tex.bundle",
+				"assets/builtin_shader"
+			]
+		},
+		{
+			"key": "assets/content/characters/GF2/Charolic/r01/charolic_r01_head.bundle",
+			"dependencyKeys": [
+				"assets/content/characters/GF2/Charolic/r01/charolic_r01_mat.bundle"
+			]
+		},
+		{
+			"key": "assets/content/characters/GF2/Charolic/r01/charolic_r01_body.bundle",
+			"dependencyKeys": [
+				"assets/content/characters/GF2/Charolic/r01/charolic_r01_mat.bundle"
+			]
+		},
+		{
+			"key": "assets/content/characters/GF2/Charolic/r01/charolic_r01_hands.bundle",
+			"dependencyKeys": [
+				"assets/content/characters/GF2/Charolic/r01/charolic_r01_mat.bundle"
+			]
+		},
+		{
+			"key": "assets/content/characters/GF2/Charolic/r01/charolic_r01_leg.bundle",
+			"dependencyKeys": [
+				"assets/content/characters/GF2/Charolic/r01/charolic_r01_mat.bundle"
+			]
+		},
+
+		{
+			"key": "assets/content/characters/GF2/Charolic/sr01/charolic_sr01_tex.bundle",
+			"dependencyKeys": []
+		},
+		{
+			"key": "assets/content/characters/GF2/Charolic/sr01/charolic_sr01_mat.bundle",
+			"dependencyKeys": [
+				"assets/content/characters/GF2/Charolic/sr01/charolic_sr01_tex.bundle",
+				"assets/builtin_shader"
+			]
+		},
+		{
+			"key": "assets/content/characters/GF2/Charolic/sr01/charolic_sr01_head.bundle",
+			"dependencyKeys": [
+				"assets/content/characters/GF2/Charolic/sr01/charolic_sr01_mat.bundle"
+			]
+		},
+		{
+			"key": "assets/content/characters/GF2/Charolic/sr01/charolic_sr01_body.bundle",
+			"dependencyKeys": [
+				"assets/content/characters/GF2/Charolic/sr01/charolic_sr01_mat.bundle"
+			]
+		},
+		{
+			"key": "assets/content/characters/GF2/Charolic/sr01/charolic_sr01_body_no_shield.bundle",
+			"dependencyKeys": [
+				"assets/content/characters/GF2/Charolic/sr01/charolic_sr01_mat.bundle"
+			]
+		},
+		{
+			"key": "assets/content/characters/GF2/Charolic/sr01/charolic_sr01_hands.bundle",
+			"dependencyKeys": [
+				"assets/content/characters/GF2/Charolic/sr01/charolic_sr01_mat.bundle"
+			]
+		},
+		{
+			"key": "assets/content/characters/GF2/Charolic/sr01/charolic_sr01_leg.bundle",
+			"dependencyKeys": [
+				"assets/content/characters/GF2/Charolic/sr01/charolic_sr01_mat.bundle"
+			]
+		},
+		
+		{
+			"key": "assets/content/characters/GF2/Charolic/ssr01/charolic_ssr01_tex.bundle",
+			"dependencyKeys": []
+		},
+		{
+			"key": "assets/content/characters/GF2/Charolic/ssr01/charolic_ssr01_mat.bundle",
+			"dependencyKeys": [
+				"assets/content/characters/GF2/Charolic/ssr01/charolic_ssr01_tex.bundle",
+				"assets/builtin_shader"
+			]
+		},
+		{
+			"key": "assets/content/characters/GF2/Charolic/ssr01/charolic_ssr01_head.bundle",
+			"dependencyKeys": [
+				"assets/content/characters/GF2/Charolic/ssr01/charolic_ssr01_mat.bundle"
+			]
+		},
+		{
+			"key": "assets/content/characters/GF2/Charolic/ssr01/charolic_ssr01_body.bundle",
+			"dependencyKeys": [
+				"assets/content/characters/GF2/Charolic/ssr01/charolic_ssr01_mat.bundle"
+			]
+		},
+		{
+			"key": "assets/content/characters/GF2/Charolic/ssr01/charolic_ssr01_hands.bundle",
+			"dependencyKeys": [
+				"assets/content/characters/GF2/Charolic/ssr01/charolic_ssr01_mat.bundle"
+			]
+		},
+		{
+			"key": "assets/content/characters/GF2/Charolic/ssr01/charolic_ssr01_leg.bundle",
+			"dependencyKeys": [
+				"assets/content/characters/GF2/Charolic/ssr01/charolic_ssr01_mat.bundle"
+			]
+		}
+	]
+}

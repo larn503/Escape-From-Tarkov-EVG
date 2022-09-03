@@ -1,0 +1,577 @@
+{
+    "ItemPresets": {
+        "AKM366JATOSTYLE": {
+            "_changeWeaponName": true,
+            "_id": "AKM366JATOSTYLE",
+           "_items": [	
+		   {
+			"_id": "AKM366_Buy",
+			"_tpl": "59e6687d86f77411d949b251",
+			"upd": {
+				"FireMode": {
+				  "FireMode": "single"
+				}
+			}
+		},
+		{
+		  "_id": "c5d49ed83881f02a1ba49794",
+		  "_tpl": "59e649f986f77411d949b246",
+		  "parentId": "AKM366_Buy",
+		  "slotId": "mod_gas_block"
+		},
+		{
+		  "_id": "9f7367158d828be1c56b9009",
+		  "_tpl": "5a9fbb74a2750c0032157181",
+		  "parentId": "AKM366_Buy",
+		  "slotId": "mod_muzzle"
+		},
+		{
+		  "_id": "951d0bc2d0c601f078333a59",
+		  "_tpl": "5947fa2486f77425b47c1a9b",
+		  "parentId": "AKM366_Buy",
+		  "slotId": "mod_pistol_grip"
+		},
+		{
+		  "_id": "e2f44432cfadca05c147af5c",
+		  "_tpl": "5d2c76ed48f03532f2136169",
+		  "parentId": "AKM366_Buy",
+		  "slotId": "mod_reciever"
+		},
+		{
+		  "_id": "92a7428be45e51d3df8f659a",
+		  "_tpl": "5cf518cfd7f00c065b422214",
+		  "parentId": "AKM366_Buy",
+		  "slotId": "mod_stock"
+		},
+		{
+		  "_id": "b9278e92edcd2135754ccb95",
+		  "_tpl": "59fafc9386f774067d462453",
+		  "parentId": "AKM366_Buy",
+		  "slotId": "mod_magazine"
+		},
+		{
+		  "_id": "9cfc052be5c9c870d4f00533",
+		  "_tpl": "5648ac824bdc2ded0b8b457d",
+		  "parentId": "AKM366_Buy",
+		  "slotId": "mod_charge"
+		},
+		{
+		  "_id": "c628946dfe9152adc333f24d",
+		  "_tpl": "5c9a1c3a2e2216000e69fb6a",
+		  "parentId": "c5d49ed83881f02a1ba49794",
+		  "slotId": "mod_handguard"
+		},
+		{
+		  "_id": "edb6d81f955a52197aa409f4",
+		  "_tpl": "591c4efa86f7741030027726",
+		  "parentId": "e2f44432cfadca05c147af5c",
+		  "slotId": "mod_scope",
+		  "upd": {
+			"Sight": {
+			  "ScopesCurrentCalibPointIndexes": [
+				0
+			  ],
+			  "ScopesSelectedModes": [
+				0
+			  ],
+			  "SelectedScope": 0
+			}
+		  }
+		},
+		{
+		  "_id": "544df25f66999cca99e29f73",
+		  "_tpl": "58d2946386f774496974c37e",
+		  "parentId": "92a7428be45e51d3df8f659a",
+		  "slotId": "mod_stock"
+		},
+		{
+		  "_id": "b64163fb1ae779d6ac6f1c92",
+		  "_tpl": "5b7be4895acfc400170e2dd5",
+		  "parentId": "c628946dfe9152adc333f24d",
+		  "slotId": "mod_foregrip"
+		},
+		{
+		  "_id": "e77fd4f0597fa911890d7b39",
+		  "_tpl": "5c1cd46f2e22164bef5cfedb",
+		  "parentId": "b64163fb1ae779d6ac6f1c92",
+		  "slotId": "mod_foregrip"
+		},
+		{
+		  "_id": "704593e75809845071f86cef",
+		  "_tpl": "591c4e1186f77410354b316e",
+		  "parentId": "edb6d81f955a52197aa409f4",
+		  "slotId": "mod_tactical"
+		},
+		{
+		  "_id": "47673705195f9ed6613ffc07",
+		  "_tpl": "58d2912286f7744e27117493",
+		  "parentId": "544df25f66999cca99e29f73",
+		  "slotId": "mod_stock"
+		}
+				],
+            "_name": "AKMJATO366",
+            "_parent": "AKM366_Buy",
+            "_type": "Preset"
+        },
+		"evg_saiga23build": {
+			"_id": "evg_saiga23build",
+			"_type": "Preset",
+			"_changeWeaponName": false,
+			"_name": "Saiga 23 v10 Default",
+			"_parent": "saiga23base",
+			"_items": [
+			  {
+				"_id": "saiga23base",
+				"_tpl": "evg_saiga23"
+			  },
+			  {
+				"_id": "58414a052459775a2b6d9f16",
+				"_tpl": "576169e62459773c69055191",
+				"parentId": "saiga23base",
+				"slotId": "mod_handguard"
+			  },
+			  {
+				"_id": "58414a052459775a2b6d9f17",
+				"_tpl": "576167ab2459773cad038c43",
+				"parentId": "saiga23base",
+				"slotId": "mod_muzzle"
+			  },
+			  {
+				"_id": "58414a052459775a2b6d9f18",
+				"_tpl": "5649ade84bdc2d1b2b8b4587",
+				"parentId": "saiga23base",
+				"slotId": "mod_pistol_grip"
+			  },
+			  {
+				"_id": "58414a052459775a2b6d9f19",
+				"_tpl": "57616c112459773cce774d66",
+				"parentId": "saiga23base",
+				"slotId": "mod_reciever"
+			  },
+			  {
+				"_id": "58414a052459775a2b6d9f1a",
+				"_tpl": "57a9b9ce2459770ee926038d",
+				"parentId": "saiga23base",
+				"slotId": "mod_sight_rear"
+			  },
+			  {
+				"_id": "58414a052459775a2b6d9f1b",
+				"_tpl": "57616ca52459773c69055192",
+				"parentId": "saiga23base",
+				"slotId": "mod_stock"
+			  },
+			  {
+				"_id": "58414a052459775a2b6d9f1c",
+				"_tpl": "evg_saiga23_mag1",
+				"parentId": "saiga23base",
+				"slotId": "mod_magazine"
+			  }
+			],
+      		"_encyclopedia": "evg_saiga23"
+		  },
+		  "evg_rhinobuild": {
+			"_id": "evg_rhinobuild",
+			"_type": "Preset",
+			"_changeWeaponName": false,
+			"_name": "Rhino 50DS default",
+			"_parent": "evg_rhinobase",
+			"_items": [
+			  {
+				"_id": "evg_rhinobase",
+				"_tpl": "evg_rhino_338",
+				"upd": {
+				  "FireMode": {
+					"FireMode": "single"
+				  }
+				}
+			  },
+			  {
+				"_id": "624d7a3691f0160c7324c3f6",
+				"_tpl": "evg_rhino_338_cyl",
+				"parentId": "evg_rhinobase",
+				"slotId": "mod_magazine"
+			  },
+			  {
+				"_id": "624d7a3691f0160c7324c3f7",
+				"_tpl": "619f4cee4c58466fe1228435",
+				"parentId": "evg_rhinobase",
+				"slotId": "mod_sight_rear"
+			  },
+			  {
+				"_id": "624d7a3691f0160c7324c3f8",
+				"_tpl": "619f4d304c58466fe1228437",
+				"parentId": "evg_rhinobase",
+				"slotId": "mod_sight_front"
+			  },
+			  {
+				"_id": "624d7a3691f0160c7324c3f9",
+				"_tpl": "619f4bffd25cbd424731fb97",
+				"parentId": "evg_rhinobase",
+				"slotId": "mod_pistol_grip"
+			  }
+			],
+			"_encyclopedia": "evg_rhino_338"
+		  },
+		  "evg_airsoftgun1build": {
+			"_id": "evg_airsoftgun1build",
+			"_type": "Preset",
+			"_changeWeaponName": false,
+			"_name": "M4A1 Airsoft default",
+			"_parent": "airsoftm4a1",
+			"_items": [
+				{
+					"_id": "airsoftm4a1",
+					"_tpl": "evg_airsoftgun1"
+				},
+				{
+					"_id": "45f7c682224657369f70a586",
+					"_tpl": "55d4b9964bdc2d1d4e8b456e",
+					"parentId": "airsoftm4a1",
+					"slotId": "mod_pistol_grip"
+				},
+				{
+					"_id": "8f56bcf5bfa2641e1d7f820d",
+					"_tpl": "6241c2c2117ad530666a5108",
+					"parentId": "airsoftm4a1",
+					"slotId": "mod_magazine"
+				},
+				{
+					"_id": "5a8b03dc2ac060d18cf9357b",
+					"_tpl": "55d355e64bdc2d962f8b4569",
+					"parentId": "airsoftm4a1",
+					"slotId": "mod_reciever"
+				},
+				{
+					"_id": "9b5204ce5d9d07d9d962ee73",
+					"_tpl": "5649be884bdc2d79388b4577",
+					"parentId": "airsoftm4a1",
+					"slotId": "mod_stock"
+				},
+				{
+					"_id": "0e54f49bef5ee4311d115fae",
+					"_tpl": "55d44fd14bdc2d962f8b456e",
+					"parentId": "airsoftm4a1",
+					"slotId": "mod_charge"
+				},
+				{
+					"_id": "f8f703cfa4c96e297f72f22f",
+					"_tpl": "55d3632e4bdc2d972f8b4569",
+					"parentId": "5a8b03dc2ac060d18cf9357b",
+					"slotId": "mod_barrel"
+				},
+				{
+					"_id": "9b0bccb2ebae81788d336831",
+					"_tpl": "55d459824bdc2d892f8b4573",
+					"parentId": "5a8b03dc2ac060d18cf9357b",
+					"slotId": "mod_handguard"
+				},
+				{
+					"_id": "4c628652eb4e12bdb75a04f5",
+					"_tpl": "55d5f46a4bdc2d1b198b4567",
+					"parentId": "5a8b03dc2ac060d18cf9357b",
+					"slotId": "mod_sight_rear",
+					"upd": {
+						"Sight": {
+							"ScopesCurrentCalibPointIndexes": [
+								0
+							],
+							"ScopesSelectedModes": [
+								0
+							],
+							"SelectedScope": 0
+						}
+					}
+				},
+				{
+					"_id": "74182eb86eaf4ed567b765b6",
+					"_tpl": "5ae30c9a5acfc408fb139a03",
+					"parentId": "9b5204ce5d9d07d9d962ee73",
+					"slotId": "mod_stock_000"
+				},
+				{
+					"_id": "fa1c49b1fa5feb1d01fe382e",
+					"_tpl": "5c7e5f112e221600106f4ede",
+					"parentId": "f8f703cfa4c96e297f72f22f",
+					"slotId": "mod_muzzle"
+				},
+				{
+					"_id": "92059d040e7da689f8f45f9d",
+					"_tpl": "5ae30e795acfc408fb139a0b",
+					"parentId": "f8f703cfa4c96e297f72f22f",
+					"slotId": "mod_gas_block"
+				},
+				{
+					"_id": "08451dcc35c0c63485610491",
+					"_tpl": "5a34fe59c4a282000b1521a2",
+					"parentId": "fa1c49b1fa5feb1d01fe382e",
+					"slotId": "mod_muzzle"
+				}
+			],
+			"_encyclopedia": "evg_airsoftgun1"
+		  },
+		  "evg_airsoftgun2build": {
+			"_id": "evg_airsoftgun2build",
+			"_type": "Preset",
+			"_changeWeaponName": false,
+			"_name": "MCX Airsoft default",
+			"_parent": "airsoftmcx",
+			"_items": [
+				{
+					"_id": "airsoftmcx",
+					"_tpl": "evg_airsoftgun2"
+				},
+				{
+					"_id": "c8ddaa8d2e00c2229e1c5366",
+					"_tpl": "5fbcbd6c187fea44d52eda14",
+					"parentId": "airsoftmcx",
+					"slotId": "mod_pistol_grip"
+				},
+				{
+					"_id": "278bbe0d07c15fd0739fa8b3",
+					"_tpl": "6241c2c2117ad530666a5108",
+					"parentId": "airsoftmcx",
+					"slotId": "mod_magazine"
+				},
+				{
+					"_id": "00752a6504870f1a8e3a4d65",
+					"_tpl": "5fbcc3e4d6fa9c00c571bb58",
+					"parentId": "airsoftmcx",
+					"slotId": "mod_reciever"
+				},
+				{
+					"_id": "1ca5ec7cf6b18216143564cc",
+					"_tpl": "5fbcc437d724d907e2077d5c",
+					"parentId": "airsoftmcx",
+					"slotId": "mod_stock"
+				},
+				{
+					"_id": "78d6a1a16281096a44aedd5f",
+					"_tpl": "5fbcc640016cce60e8341acc",
+					"parentId": "airsoftmcx",
+					"slotId": "mod_charge"
+				},
+				{
+					"_id": "7c613603c0524faf1bfa0708",
+					"_tpl": "5fbbfacda56d053a3543f799",
+					"parentId": "00752a6504870f1a8e3a4d65",
+					"slotId": "mod_barrel"
+				},
+				{
+					"_id": "51125f793e0e85d56516d8a6",
+					"_tpl": "5fbc226eca32ed67276c155d",
+					"parentId": "00752a6504870f1a8e3a4d65",
+					"slotId": "mod_handguard"
+				},
+				{
+					"_id": "d008197dd0c2674cf0002cc9",
+					"_tpl": "5fc0fa957283c4046c58147e",
+					"parentId": "00752a6504870f1a8e3a4d65",
+					"slotId": "mod_sight_rear",
+					"upd": {
+						"Sight": {
+							"ScopesCurrentCalibPointIndexes": [
+								0
+							],
+							"ScopesSelectedModes": [
+								0
+							],
+							"SelectedScope": 0
+						}
+					}
+				},
+				{
+					"_id": "5304b0de9d6d3811ca335dc0",
+					"_tpl": "5fbc22ccf24b94483f726483",
+					"parentId": "7c613603c0524faf1bfa0708",
+					"slotId": "mod_muzzle"
+				},
+				{
+					"_id": "ca6b77cf0df3996c8bb85a21",
+					"_tpl": "5fbc210bf24b94483f726481",
+					"parentId": "7c613603c0524faf1bfa0708",
+					"slotId": "mod_gas_block"
+				},
+				{
+					"_id": "b524783fe096163813a26ea4",
+					"_tpl": "5fc0fa362770a0045c59c677",
+					"parentId": "51125f793e0e85d56516d8a6",
+					"slotId": "mod_sight_front",
+					"upd": {
+						"Sight": {
+							"ScopesCurrentCalibPointIndexes": [
+								0
+							],
+							"ScopesSelectedModes": [
+								0
+							],
+							"SelectedScope": 0
+						}
+					}
+				},
+				{
+					"_id": "3168867b2e644640916787ff",
+					"_tpl": "5fbcbd10ab884124df0cd563",
+					"parentId": "5304b0de9d6d3811ca335dc0",
+					"slotId": "mod_muzzle_000"
+				},
+				{
+					"_id": "d8e413c8b771e1acfdeb3ff4",
+					"_tpl": "5fbe760793164a5b6278efc8",
+					"parentId": "5304b0de9d6d3811ca335dc0",
+					"slotId": "mod_muzzle_001"
+				}
+			],
+			"_encyclopedia": "evg_airsoftgun2"
+		  },
+		  "evg_akmsubuild": {
+			"_id": "evg_akmsubuild",
+			"_type": "Preset",
+			"_changeWeaponName": false,
+			"_name": "AKMSU default",
+			"_parent": "akmsu",
+			"_items": [
+				{
+					"_id": "akmsu",
+					"_tpl": "evg_akmsu",
+					"upd": {
+					  "Foldable": {
+						"Folded": false
+					  },
+					  "FireMode": {
+						"FireMode": "single"
+					  }
+					}
+				  },
+				  {
+					"_id": "61a9f9234e42d705e3133838",
+					"_tpl": "57e3dba62459770f0c32322b",
+					"parentId": "akmsu",
+					"slotId": "mod_pistol_grip"
+				  },
+				  {
+					"_id": "61a9f9234e42d705e3133839",
+					"_tpl": "57dc347d245977596754e7a1",
+					"parentId": "akmsu",
+					"slotId": "mod_stock"
+				  },
+				  {
+					"_id": "61a9f9234e42d705e313383a",
+					"_tpl": "59d625f086f774661516605d",
+					"parentId": "akmsu",
+					"slotId": "mod_magazine"
+				  },
+				  {
+					"_id": "61a9f9234e42d705e313383b",
+					"_tpl": "5a0d716f1526d8000d26b1e2",
+					"parentId": "akmsu",
+					"slotId": "mod_muzzle"
+				  },
+				  {
+					"_id": "61a9f9234e42d705e313383c",
+					"_tpl": "57dc334d245977597164366f",
+					"parentId": "akmsu",
+					"slotId": "mod_reciever"
+				  },
+				  {
+					"_id": "61a9f9234e42d705e313383d",
+					"_tpl": "59d36a0086f7747e673f3946",
+					"parentId": "akmsu",
+					"slotId": "mod_gas_block"
+				  },
+				  {
+					"_id": "61a9f9234e42d705e313383e",
+					"_tpl": "57dc32dc245977596d4ef3d3",
+					"parentId": "61a9f9234e42d705e313383d",
+					"slotId": "mod_handguard"
+				  }
+			],
+			"_encyclopedia": "evg_akmsu"
+		},
+		"evg_akmsubuild_enot": {
+			"_id": "evg_akmsubuild_enot",
+			"_type": "Preset",
+			"_changeWeaponName": true,
+			"_name": "AKMSU Enot",
+			"_parent": "akmsuenot",
+			"_items": [
+				{
+					"_id": "akmsuenot",
+					"_tpl": "evg_akmsu"
+				},
+				{
+					"_id": "8792da3da370efaf16419fd0",
+					"_tpl": "6087e663132d4d12c81fd96b",
+					"parentId": "akmsuenot",
+					"slotId": "mod_pistol_grip"
+				},
+				{
+					"_id": "a411eae63428c7a71adb32d0",
+					"_tpl": "57dc347d245977596754e7a1",
+					"parentId": "akmsuenot",
+					"slotId": "mod_stock"
+				},
+				{
+					"_id": "304d724a3d59d41c3c5c54b2",
+					"_tpl": "6130ca3fd92c473c77020dbd",
+					"parentId": "akmsuenot",
+					"slotId": "mod_charge"
+				},
+				{
+					"_id": "006be122d72aa0374180e548",
+					"_tpl": "615d8e9867085e45ef1409c6",
+					"parentId": "akmsuenot",
+					"slotId": "mod_muzzle"
+				},
+				{
+					"_id": "05ac38a6e7bae4fc49b6cccf",
+					"_tpl": "5839a7742459773cf9693481",
+					"parentId": "akmsuenot",
+					"slotId": "mod_reciever"
+				},
+				{
+					"_id": "9e32dd82f9ec1bb83019374d",
+					"_tpl": "59d36a0086f7747e673f3946",
+					"parentId": "akmsuenot",
+					"slotId": "mod_gas_block"
+				},
+				{
+					"_id": "a49c3792c11e7d51f1b7b775",
+					"_tpl": "5a0c59791526d8dba737bba7",
+					"parentId": "a411eae63428c7a71adb32d0",
+					"slotId": "mod_stock"
+				},
+				{
+					"_id": "58481c1ece6bf6589b4de800",
+					"_tpl": "6130c43c67085e45ef1405a1",
+					"parentId": "006be122d72aa0374180e548",
+					"slotId": "mod_muzzle"
+				},
+				{
+					"_id": "07ea61d3f62660595ec67ede",
+					"_tpl": "5a957c3fa2750c00137fa5f7",
+					"parentId": "9e32dd82f9ec1bb83019374d",
+					"slotId": "mod_handguard"
+				},
+				{
+					"_id": "dd94bac3c81d883ce219bf0a",
+					"_tpl": "5dfa3d2b0dee1b22f862eade",
+					"parentId": "58481c1ece6bf6589b4de800",
+					"slotId": "mod_muzzle"
+				},
+				{
+					"_id": "1a596495543291b7c587fc4e",
+					"_tpl": "5c1cd46f2e22164bef5cfedb",
+					"parentId": "07ea61d3f62660595ec67ede",
+					"slotId": "mod_foregrip"
+				},
+				{
+					"_id": "5273c444a291deaf3b6f516c",
+					"_tpl": "6272370ee4013c5d7e31f418",
+					"parentId": "07ea61d3f62660595ec67ede",
+					"slotId": "mod_tactical_000"
+				}
+			]
+		}
+	}
+}
+

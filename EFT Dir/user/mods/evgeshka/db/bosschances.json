@@ -1,0 +1,52 @@
+{
+    "bigmap": [
+        {
+            "BossName": "sectantPriest",
+            "BossChance": 20
+        },
+        {
+            "BossName": "bossBully",
+            "BossChance": 20
+        }
+    ],
+    "factory4_day": [
+        {
+            "BossName": "bossTagilla",
+            "BossChance": 20
+        }
+    ],
+    "factory4_night": [
+        {
+            "BossName": "bossTagilla",
+            "BossChance": 20
+        },
+        {
+            "BossName": "sectantPriest",
+            "BossChance": 15
+        }
+    ],
+    "interchange": [
+        {
+            "BossName": "bossKilla",
+            "BossChance": 20
+        }
+    ],
+    "rezervbase": [
+        {
+            "BossName": "bossGluhar",
+            "BossChance": 20
+        }
+    ],
+    "shoreline": [
+        {
+            "BossName": "sectantPriest",
+            "BossChance": 20
+        }
+    ],
+    "woods": [
+        {
+            "BossName": "sectantPriest",
+            "BossChance": 30
+        }
+    ]
+}

@@ -1,0 +1,370 @@
+{
+    "suits": [
+        {
+            "_id": "5f5f6160354701500f60f111",
+            "tid": "5ac3b934156ae10c4430e83c",
+            "suiteId": "Grozaplayerdormkit111111",
+            "isActive": true,
+            "requirements": {
+                "loyaltyLevel": 1,
+                "profileLevel": 15,
+                "standing": 0,
+                "skillRequirements": [],
+                "questRequirements": [],
+                "itemRequirements": [
+                    {
+                        "count": 650000,
+                        "_tpl": "5449016a4bdc2d6f028b456f",
+                        "onlyFunctional": true
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "5f5f6160354701500f60f222",
+            "tid": "5ac3b934156ae10c4430e83c",
+            "suiteId": "Grozaplayerdormkit222222",
+            "isActive": true,
+            "requirements": {
+                "loyaltyLevel": 1,
+                "profileLevel": 15,
+                "standing": 0,
+                "skillRequirements": [],
+                "questRequirements": [],
+                "itemRequirements": [
+                    {
+                        "count": 450000,
+                        "_tpl": "5449016a4bdc2d6f028b456f",
+                        "onlyFunctional": true
+                    }
+                ]
+            }
+        },
+
+        {
+            "_id": "5f5f6160354701500f60po01",
+            "tid": "5ac3b934156ae10c4430e83c",
+            "suiteId": "Grozar01kit1111111111111",
+            "isActive": true,
+            "requirements": {
+                "loyaltyLevel": 1,
+                "profileLevel": 20,
+                "standing": 0,
+                "skillRequirements": [],
+                "questRequirements": [],
+                "itemRequirements": [
+                    {
+                        "count": 1400000,
+                        "_tpl": "5449016a4bdc2d6f028b456f",
+                        "onlyFunctional": true
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "5f5f6160354701500f60fh01",
+            "tid": "5ac3b934156ae10c4430e83c",
+            "suiteId": "Grozar01kit2222222222222",
+            "isActive": true,
+            "requirements": {
+                "loyaltyLevel": 1,
+                "profileLevel": 20,
+                "standing": 0,
+                "skillRequirements": [],
+                "questRequirements": [],
+                "itemRequirements": [
+                    {
+                        "count": 1400000,
+                        "_tpl": "5449016a4bdc2d6f028b456f",
+                        "onlyFunctional": true
+                    }
+                ]
+            }
+        },
+
+        {
+            "_id": "5f5f6160354701500f60f1sr",
+            "tid": "5ac3b934156ae10c4430e83c",
+            "suiteId": "Grozasr01kit111111111111",
+            "isActive": true,
+            "requirements": {
+                "loyaltyLevel": 1,
+                "profileLevel": 21,
+                "standing": 0,
+                "skillRequirements": [],
+                "questRequirements": [],
+                "itemRequirements": [
+                    {
+                        "count": 870000,
+                        "_tpl": "5449016a4bdc2d6f028b456f",
+                        "onlyFunctional": true
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "5f5f6160354701500f60f2sr",
+            "tid": "5ac3b934156ae10c4430e83c",
+            "suiteId": "Grozasr01kit222222222222",
+            "isActive": true,
+            "requirements": {
+                "loyaltyLevel": 1,
+                "profileLevel": 21,
+                "standing": 0,
+                "skillRequirements": [],
+                "questRequirements": [],
+                "itemRequirements": [
+                    {
+                        "count": 500000,
+                        "_tpl": "5449016a4bdc2d6f028b456f",
+                        "onlyFunctional": true
+                    }
+                ]
+            }
+        },
+
+        {
+            "_id": "5f5f6160354701500f60f1lr",
+            "tid": "5ac3b934156ae10c4430e83c",
+            "suiteId": "Lennar01kit1111111111111",
+            "isActive": true,
+            "requirements": {
+                "loyaltyLevel": 1,
+                "profileLevel": 13,
+                "standing": 0,
+                "skillRequirements": [],
+                "questRequirements": [],
+                "itemRequirements": [
+                    {
+                        "count": 410000,
+                        "_tpl": "5449016a4bdc2d6f028b456f",
+                        "onlyFunctional": true
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "5f5f6160354701500f60f2lr",
+            "tid": "5ac3b934156ae10c4430e83c",
+            "suiteId": "Lennar01kit2222222222222",
+            "isActive": true,
+            "requirements": {
+                "loyaltyLevel": 1,
+                "profileLevel":13,
+                "standing": 0,
+                "skillRequirements": [],
+                "questRequirements": [],
+                "itemRequirements": [
+                    {
+                        "count": 150000,
+                        "_tpl": "5449016a4bdc2d6f028b456f",
+                        "onlyFunctional": true
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "5f5f6160354701500f60fqrr",
+            "tid": "5ac3b934156ae10c4430e83c",
+            "suiteId": "Lennasr01kit111111111111",
+            "isActive": true,
+            "requirements": {
+                "loyaltyLevel": 1,
+                "profileLevel": 27,
+                "standing": 0,
+                "skillRequirements": [],
+                "questRequirements": ["jatobrat"],
+                "itemRequirements": [
+                    {
+                        "count": 860000,
+                        "_tpl": "5449016a4bdc2d6f028b456f",
+                        "onlyFunctional": true
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "5f5f6160354701500f60frrr",
+            "tid": "5ac3b934156ae10c4430e83c",
+            "suiteId": "Lennasr01kit222222222222",
+            "isActive": true,
+            "requirements": {
+                "loyaltyLevel": 1,
+                "profileLevel": 27,
+                "standing": 0,
+                "skillRequirements": [],
+                "questRequirements": ["jatobrat"],
+                "itemRequirements": [
+                    {
+                        "count": 1100000,
+                        "_tpl": "5449016a4bdc2d6f028b456f",
+                        "onlyFunctional": true
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "5f5f6160354701500f60aarr",
+            "tid": "5ac3b934156ae10c4430e83c",
+            "suiteId": "Lennasr01shortcapekit111",
+            "isActive": true,
+            "requirements": {
+                "loyaltyLevel": 1,
+                "profileLevel": 27,
+                "standing": 0,
+                "skillRequirements": [],
+                "questRequirements": ["jatobrat"],
+                "itemRequirements": [
+                    {
+                        "count": 800000,
+                        "_tpl": "5449016a4bdc2d6f028b456f",
+                        "onlyFunctional": true
+                    }
+                ]
+            }
+        },
+
+        {
+            "_id": "5f5f6160354701500fcwawww",
+            "tid": "5ac3b934156ae10c4430e83c",
+            "suiteId": "Charolicr01kit1111111111",
+            "isActive": true,
+            "requirements": {
+                "loyaltyLevel": 1,
+                "profileLevel": 20,
+                "standing": 0,
+                "skillRequirements": [],
+                "questRequirements": [],
+                "itemRequirements": [
+                    {
+                        "count": 100000,
+                        "_tpl": "5449016a4bdc2d6f028b456f",
+                        "onlyFunctional": true
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "5f5f6160354701500fcwafwa",
+            "tid": "5ac3b934156ae10c4430e83c",
+            "suiteId": "Charolicr01kit2222222222",
+            "isActive": true,
+            "requirements": {
+                "loyaltyLevel": 1,
+                "profileLevel": 20,
+                "standing": 0,
+                "skillRequirements": [],
+                "questRequirements": [],
+                "itemRequirements": [
+                    {
+                        "count": 100000,
+                        "_tpl": "5449016a4bdc2d6f028b456f",
+                        "onlyFunctional": true
+                    }
+                ]
+            }
+        },
+
+        {
+            "_id": "5f5f6160354701500qqvsr01",
+            "tid": "5ac3b934156ae10c4430e83c",
+            "suiteId": "Charolicsr01kit111111111",
+            "isActive": true,
+            "requirements": {
+                "loyaltyLevel": 1,
+                "profileLevel": 25,
+                "standing": 0,
+                "skillRequirements": [],
+                "questRequirements": [],
+                "itemRequirements": [
+                    {
+                        "count": 1000000,
+                        "_tpl": "5449016a4bdc2d6f028b456f",
+                        "onlyFunctional": true
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "5f5f6160354701500ddvsr01",
+            "tid": "5ac3b934156ae10c4430e83c",
+            "suiteId": "Charolicsr01kit222222222",
+            "isActive": true,
+            "requirements": {
+                "loyaltyLevel": 1,
+                "profileLevel": 25,
+                "standing": 0,
+                "skillRequirements": [],
+                "questRequirements": [],
+                "itemRequirements": [
+                    {
+                        "count": 650000,
+                        "_tpl": "5449016a4bdc2d6f028b456f",
+                        "onlyFunctional": true
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "5f5f6160354701500davsr01",
+            "tid": "5ac3b934156ae10c4430e83c",
+            "suiteId": "Charolicsr01noshieldkit1",
+            "isActive": true,
+            "requirements": {
+                "loyaltyLevel": 1,
+                "profileLevel": 25,
+                "standing": 0,
+                "skillRequirements": [],
+                "questRequirements": [],
+                "itemRequirements": [
+                    {
+                        "count": 989999,
+                        "_tpl": "5449016a4bdc2d6f028b456f",
+                        "onlyFunctional": true
+                    }
+                ]
+            }
+        },
+
+        {
+            "_id": "5f5f6160354701500ddbawww",
+            "tid": "5ac3b934156ae10c4430e83c",
+            "suiteId": "Charolicssr01kit11111111",
+            "isActive": true,
+            "requirements": {
+                "loyaltyLevel": 1,
+                "profileLevel": 30,
+                "standing": 0,
+                "skillRequirements": [],
+                "questRequirements": ["jatopatrik3"],
+                "itemRequirements": [
+                    {
+                        "count": 850000,
+                        "_tpl": "5449016a4bdc2d6f028b456f",
+                        "onlyFunctional": true
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "5f5f6160354701500faawfwa",
+            "tid": "5ac3b934156ae10c4430e83c",
+            "suiteId": "Charolicssr01kit22222222",
+            "isActive": true,
+            "requirements": {
+                "loyaltyLevel": 1,
+                "profileLevel": 30,
+                "standing": 0,
+                "skillRequirements": [],
+                "questRequirements": ["jatopatrik3"],
+                "itemRequirements": [
+                    {
+                        "count": 666666,
+                        "_tpl": "5449016a4bdc2d6f028b456f",
+                        "onlyFunctional": true
+                    }
+                ]
+            }
+        }
+    ]
+}

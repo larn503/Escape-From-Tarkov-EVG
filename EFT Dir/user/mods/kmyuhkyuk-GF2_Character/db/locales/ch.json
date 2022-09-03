@@ -1,0 +1,231 @@
+{
+	"templates": {
+		"Grozaplayerdormhead11111": {
+			"Name": "Ots-14 Groza 闪电·家居服",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Grozaplayerdormbody11111": {
+			"Name": "Ots-14 Groza 闪电·家居服",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Grozaplayerdormkit111111": {
+			"Name": "Ots-14 Groza 闪电·家居服",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Grozaplayerdormleg111111": {
+			"Name": "Ots-14 Groza 闪电·家居服",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Grozaplayerdormkit222222": {
+			"Name": "Ots-14 Groza 闪电·家居服",
+			"ShortName": "",
+			"Description": ""
+		},
+
+		"Grozar01head111111111111": {
+			"Name": "Ots-14 Groza 闪电·Ets型",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Grozar01body111111111111": {
+			"Name": "Ots-14 Groza 闪电·Ets型",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Grozar01leg1111111111111": {
+			"Name": "Ots-14 Groza 闪电·Ets型",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Grozar01kit1111111111111": {
+			"Name": "Ots-14 Groza 闪电·Ets型",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Grozar01kit2222222222222": {
+			"Name": "Ots-14 Groza 闪电·Ets型",
+			"ShortName": "",
+			"Description": ""
+		},
+
+		"Grozasr01head11111111111": {
+			"Name": "Ots-14 Groza 闪电·凛锋",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Grozasr01body11111111111": {
+			"Name": "Ots-14 Groza 闪电·凛锋",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Grozasr01leg111111111111": {
+			"Name": "Ots-14 Groza 闪电·凛锋",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Grozasr01kit111111111111": {
+			"Name": "Ots-14 Groza 闪电·凛锋",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Grozasr01kit222222222222": {
+			"Name": "Ots-14 Groza 闪电·凛锋",
+			"ShortName": "",
+			"Description": ""
+		},
+
+		"Lennar01head111111111111": {
+			"Name": "Ump 9 Lenna 莱娜·Ets型",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Lennar01body111111111111": {
+			"Name": "Ump 9 Lenna 莱娜·Ets型",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Lennar01leg1111111111111": {
+			"Name": "Ump 9 Lenna 莱娜·Ets型",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Lennar01kit1111111111111": {
+			"Name": "Ump 9 Lenna 莱娜·Ets型",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Lennar01kit2222222222222": {
+			"Name": "Ump 9 Lenna 莱娜·Ets型",
+			"ShortName": "",
+			"Description": ""
+		},
+
+		"Lennasr01head11111111111": {
+			"Name": "Ump 9 Lenna 莱娜·增幅",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Lennasr01body11111111111": {
+			"Name": "Ump 9 Lenna 莱娜·增幅",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Lennasr01leg111111111111": {
+			"Name": "Ump 9 Lenna 莱娜·增幅",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Lennasr01kit111111111111": {
+			"Name": "Ump 9 Lenna 莱娜·增幅",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Lennasr01kit222222222222": {
+			"Name": "Ump 9 Lenna 莱娜·增幅",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Lennasr01bodyshortcape11": {
+			"Name": "Ump 9 Lenna 莱娜·增幅 短披风",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Lennasr01shortcapekit111": {
+			"Name": "Ump 9 Lenna 莱娜·增幅 短披风",
+			"ShortName": "",
+			"Description": ""
+		},
+
+		"Charolicr01head111111111": {
+			"Name": "Charolic 克罗丽科·Ets型",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Charolicr01body111111111": {
+			"Name": "Charolic 克罗丽科·Ets型",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Charolicr01leg1111111111": {
+			"Name": "Charolic 克罗丽科·Ets型",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Charolicr01kit1111111111": {
+			"Name": "Charolic 克罗丽科·Ets型",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Charolicr01kit2222222222": {
+			"Name": "Charolic 克罗丽科·Ets型",
+			"ShortName": "",
+			"Description": ""
+		},
+		
+		"Charolicsr01head11111111": {
+			"Name": "Charolic 克罗丽科·白刃",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Charolicsr01body11111111": {
+			"Name": "Charolic 克罗丽科·白刃",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Charolicsr01leg111111111": {
+			"Name": "Charolic 克罗丽科·白刃",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Charolicsr01kit111111111": {
+			"Name": "Charolic 克罗丽科·白刃",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Charolicsr01kit222222222": {
+			"Name": "Charolic 克罗丽科·白刃",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Charolicsr01bodynoshield": {
+			"Name": "Charolic 克罗丽科·白刃 无盾",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Charolicsr01noshieldkit1": {
+			"Name": "Charolic 克罗丽科·白刃 无盾",
+			"ShortName": "",
+			"Description": ""
+		},
+
+		"Charolicssr01head1111111": {
+			"Name": "Charolic 克罗丽科·疾光式",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Charolicssr01body1111111": {
+			"Name": "Charolic 克罗丽科·疾光式",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Charolicssr01leg11111111": {
+			"Name": "Charolic 克罗丽科·疾光式",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Charolicssr01kit11111111": {
+			"Name": "Charolic 克罗丽科·疾光式",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Charolicssr01kit22222222": {
+			"Name": "Charolic 克罗丽科·疾光式",
+			"ShortName": "",
+			"Description": ""
+		}
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"manifest": [
+		{
+			"key": "assets/builtin_shader",
+			"dependencyKeys": []
+		}
+	]
+}

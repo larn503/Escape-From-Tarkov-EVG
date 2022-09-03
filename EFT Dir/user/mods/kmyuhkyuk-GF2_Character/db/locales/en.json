@@ -1,0 +1,231 @@
+{
+	"templates": {
+		"Grozaplayerdormhead11111": {
+			"Name": "Ots-14 Groza·Playerdorm",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Grozaplayerdormbody11111": {
+			"Name": "Ots-14 Groza·Playerdorm",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Grozaplayerdormkit111111": {
+			"Name": "Ots-14 Groza·Playerdorm",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Grozaplayerdormleg111111": {
+			"Name": "Ots-14 Groza·Playerdorm",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Grozaplayerdormkit222222": {
+			"Name": "Ots-14 Groza·Playerdorm",
+			"ShortName": "",
+			"Description": ""
+		},
+		
+		"Grozar01head111111111111": {
+			"Name": "Ots-14 Groza·Ets",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Grozar01body111111111111": {
+			"Name": "Ots-14 Groza·Ets",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Grozar01leg1111111111111": {
+			"Name": "Ots-14 Groza·Ets",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Grozar01kit1111111111111": {
+			"Name": "Ots-14 Groza·Ets",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Grozar01kit2222222222222": {
+			"Name": "Ots-14 Groza·Ets",
+			"ShortName": "",
+			"Description": ""
+		},
+
+		"Grozasr01head11111111111": {
+			"Name": "Ots-14 Groza·SR",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Grozasr01body11111111111": {
+			"Name": "Ots-14 Groza·SR",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Grozasr01leg111111111111": {
+			"Name": "Ots-14 Groza·SR",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Grozasr01kit111111111111": {
+			"Name": "Ots-14 Groza·SR",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Grozasr01kit222222222222": {
+			"Name": "Ots-14 Groza·SR",
+			"ShortName": "",
+			"Description": ""
+		},
+
+		"Lennar01head111111111111": {
+			"Name": "Ump 9 Lenna·Ets",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Lennar01body111111111111": {
+			"Name": "Ump 9 Lenna·Ets",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Lennar01leg1111111111111": {
+			"Name": "Ump 9 Lenna·Ets",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Lennar01kit1111111111111": {
+			"Name": "Ump 9 Lenna·Ets",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Lennar01kit2222222222222": {
+			"Name": "Ump 9 Lenna·Ets",
+			"ShortName": "",
+			"Description": ""
+		},
+
+		"Lennasr01head11111111111": {
+			"Name": "Ump 9 Lenna·SR",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Lennasr01body11111111111": {
+			"Name": "Ump 9 Lenna·SR",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Lennasr01leg111111111111": {
+			"Name": "Ump 9 Lenna·SR",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Lennasr01kit111111111111": {
+			"Name": "Ump 9 Lenna·SR",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Lennasr01kit222222222222": {
+			"Name": "Ump 9 Lenna·SR",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Lennasr01bodyshortcape11": {
+			"Name": "Ump 9 Lenna·SR short cape",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Lennasr01shortcapekit111": {
+			"Name": "Ump 9 Lenna·SR short cape",
+			"ShortName": "",
+			"Description": ""
+		},
+
+		"Charolicr01head111111111": {
+			"Name": "Charolic·Ets",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Charolicr01body111111111": {
+			"Name": "Charolic·Ets",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Charolicr01leg1111111111": {
+			"Name": "Charolic·Ets",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Charolicr01kit1111111111": {
+			"Name": "Charolic·Ets",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Charolicr01kit2222222222": {
+			"Name": "Charolic·Ets",
+			"ShortName": "",
+			"Description": ""
+		},
+		
+		"Charolicsr01head11111111": {
+			"Name": "Charolic·SR",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Charolicsr01body11111111": {
+			"Name": "Charolic·SR",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Charolicsr01leg111111111": {
+			"Name": "Charolic·SR",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Charolicsr01kit111111111": {
+			"Name": "Charolic·SR",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Charolicsr01kit222222222": {
+			"Name": "Charolic·SR",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Charolicsr01bodynoshield": {
+			"Name": "Charolic·SR no shield",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Charolicsr01noshieldkit1": {
+			"Name": "Charolic·SR no shield",
+			"ShortName": "",
+			"Description": ""
+		},
+
+		"Charolicssr01head1111111": {
+			"Name": "Charolic·SSR",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Charolicssr01body1111111": {
+			"Name": "Charolic·SSR",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Charolicssr01leg11111111": {
+			"Name": "Charolic·SSR",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Charolicssr01kit11111111": {
+			"Name": "Charolic·SSR",
+			"ShortName": "",
+			"Description": ""
+		},
+		"Charolicssr01kit22222222": {
+			"Name": "Charolic·SSR",
+			"ShortName": "",
+			"Description": ""
+		}
+	}
+}
