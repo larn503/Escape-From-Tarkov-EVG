@@ -123,6 +123,7 @@ class EvgeshkaTrader implements IPreAkiLoadMod, IPostDBLoadMod {
             tables.templates.items["627a4e6b255f7527fb05a0f6"]._props.Slots[slot]._props.filters[0].Filter.push("evg_bossfinder");
         }
         tables.templates.items["5857a8bc2459772bad15db29"]._props.DiscardingBlock = true;
+        this.fixScavEquip(container);
         this.setNewWeaponMastering(container);
         this.removeExclusiveItemsFromPmc(container);
         this.worsePmcArmor(container);
@@ -307,7 +308,6 @@ class EvgeshkaTrader implements IPreAkiLoadMod, IPostDBLoadMod {
         ammo._props.RicochetChance = 0.3;
         ammo._props.Tracer = true;
         ammo._props.TracerColor = "yellow";
-        ammo._props.Caliber = "Airsoft 6mm BB";
         ammo._props.BallisticCoeficient = 0.9;
         ammo._props.Damage = 3;
         ammo._props.LightBleedingDelta = 0.35;
@@ -413,15 +413,6 @@ class EvgeshkaTrader implements IPreAkiLoadMod, IPostDBLoadMod {
             RHINO: [
                 "evg_rhino_338"
             ],
-            M4: [
-                "evg_airsoftgun1"
-            ],
-            MCX: [
-                "evg_airsoftgun2"
-            ],
-            GLOCK17: [
-                "evg_airsoftpistol"
-            ],
             AKSU: [
                 "evg_akmsu"
             ]
@@ -474,10 +465,9 @@ class EvgeshkaTrader implements IPreAkiLoadMod, IPostDBLoadMod {
         const serverconfig = container.resolve<ConfigServer>("ConfigServer");
         const ragfairconfig = serverconfig.getConfig<IRagfairConfig>(ConfigTypes.RAGFAIR);
         ragfairconfig.traders["evgeshka"] = true;
-        const blacklistItems = ["enot_mark","enot_afak","enot_etg","enot_kondor","enot_maska","evg_mail","evg_mail_pack","evg_saiga23","evg_rhino_338","evg_bossfinder","evg_akmsu","evg_fake_slick","evg_fake_altyn","evg_airsoftgun1","evg_airsoftgun2","evg_airsoftpistol","evg_mag_airsoftpistol","evg_rhino_338_cyl","evg_saiga23_mag1","evg_saiga23_mag2","evg_saiga23_mag3","evg_blackhole_case","evg_blackhole_secure", "evg_weaponcase", "5780cf7f2459777de4559322", "5ede7a8229445733cb4c18e2", "5d235bb686f77443f4331278", "6087e570b998180e9f76dc24", "628a60ae6b1d481ff772e9c8", "576165642459773c7a400233","62987dfc402c7f69bf010923", "5eff09cd30a7dc22fd1ddfed"];
+        const blacklistItems = ["enot_mark","enot_afak","enot_etg","enot_kondor","enot_maska","evg_mail","evg_mail_pack","evg_saiga23","evg_rhino_338","evg_bossfinder","evg_akmsu","evg_fake_slick","evg_fake_altyn","evg_mag_airsoftpistol","evg_rhino_338_cyl","evg_saiga23_mag1","evg_saiga23_mag2","evg_saiga23_mag3","evg_blackhole_case","evg_blackhole_secure", "evg_weaponcase", "5780cf7f2459777de4559322", "5ede7a8229445733cb4c18e2", "5d235bb686f77443f4331278", "6087e570b998180e9f76dc24", "628a60ae6b1d481ff772e9c8", "576165642459773c7a400233","62987dfc402c7f69bf010923", "5eff09cd30a7dc22fd1ddfed"];
         for (const item in blacklistItems) {
             ragfairconfig.dynamic.blacklist.custom.push(blacklistItems[item]);
-            db.templates.items[blacklistItems[item]]._props.CanSellOnRagfair = false;
         }
         ragfairconfig.dynamic.presetPrice.min = 1.1
         ragfairconfig.dynamic.presetPrice.max = 1.3
@@ -517,7 +507,7 @@ class EvgeshkaTrader implements IPreAkiLoadMod, IPostDBLoadMod {
             fencecfg.blacklist.push(blacklistarray[item]); 
         }
         for (const item in db.templates.handbook.Categories) {
-            if(db.templates.handbook.Items[item].Id == "5e81ebcd8e146c7080625e15") {
+            if (db.templates.handbook.Items[item].Id == "5e81ebcd8e146c7080625e15") {
                 db.templates.handbook.Items[item].Price = 400000
                 break
             }
@@ -601,6 +591,30 @@ class EvgeshkaTrader implements IPreAkiLoadMod, IPostDBLoadMod {
         }
     }
 
+    private fixScavEquip(container: DependencyContainer) : void {
+        const db = container.resolve<DatabaseServer>("DatabaseServer").getTables();
+        db.bots.types.assault.inventory.equipment.TacticalVest = {
+            "544a5caa4bdc2d1a388b4568": 1,
+            "5648a69d4bdc2ded0b8b457b": 5,
+            "572b7adb24597762ae139821": 30,
+            "5929a2a086f7744f4b234d43": 25,
+            "592c2d1a86f7746dbe2af32a": 5,
+            "59e7643b86f7742cbf2c109a": 25,
+            "5ab8dab586f77441cd04f2a2": 5,
+            "5c0e446786f7742013381639": 25,
+            "5c0e6a1586f77404597b4965": 5,
+            "5ca20abf86f77418567a43f2": 15,
+            "5d5d646386f7742797261fd9": 20,
+            "5e4abfed86f77406a2713cf7": 25,
+            "5fd4c4fa16cac650092f6771": 30,
+            "5fd4c5477a8d854fa0105061": 30,
+            "5fd4c60f875c30179f5d04c2": 10,
+            "6034cf5fffd42c541047f72e": 20,
+            "6034d0230ca681766b6a0fb5": 30,
+            "603648ff5a45383c122086ac": 5,
+            "6040dd4ddcf9592f401632d2": 5
+        }
+    }
 
 }
 
