@@ -36,3 +36,5 @@
 
 # Anime Mode
 ![This is an image](animeMode.png)
+
+^Стандартные костюмы Usec и Bear^
