@@ -21,7 +21,7 @@
 
 # Установка:
 1. Устанавливаем EFT и [SPT-AKI](https://hub.sp-tarkov.com/doc/entry/49-a-comprehensive-step-by-step-guide-to-installing-spt-aki-properly/)
-2. Скачиваем последнюю версию мода
+2. Скачиваем [последнюю версию мода](https://github.com/larn503/Escape-From-Tarkov-EVG/releases)
 3. Закидываем папки **user** и **BepInEx** в папку с игрой
 4. Настраиваем мод по необходимости в user\mods\evgeshka\config\config.json [ИНСТРУКЦИЯ ТУТ](https://github.com/larn503/Escape-From-Tarkov-EVG#%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B3)
 Новую игру создавать необязательно, НО аниме режим включается только до начала новой игры. Однако могу помочь перенести сохранение в случае чего.
