@@ -102,7 +102,6 @@ class EvgeshkaTrader {
             tables.templates.items["627a4e6b255f7527fb05a0f6"]._props.Slots[slot]._props.filters[0].Filter.push("evg_bossfinder");
         }
         tables.templates.items["5857a8bc2459772bad15db29"]._props.DiscardingBlock = true;
-        this.fixScavEquip(container);
         this.setNewWeaponMastering(container);
         this.removeExclusiveItemsFromPmc(container);
         this.worsePmcArmor(container);
@@ -154,6 +153,7 @@ class EvgeshkaTrader {
         }
         //Misc
         this.increaseHideout(container);
+        this.fixScavEquip(container);
         tables.globals.config.SkillMinEffectiveness = 0.33;
         tables.globals.config.SkillsSettings.SkillProgressRate = 1.3;
         tables.globals.config.SkillsSettings.Metabolism.EnergyRecoveryRate = 0.2;
@@ -360,6 +360,15 @@ class EvgeshkaTrader {
             RHINO: [
                 "evg_rhino_338"
             ],
+            M4: [
+                "evg_airsoftgun1"
+            ],
+            MCX: [
+                "evg_airsoftgun2"
+            ],
+            GLOCK17: [
+                "evg_airsoftpistol"
+            ],
             AKSU: [
                 "evg_akmsu"
             ]
@@ -404,9 +413,10 @@ class EvgeshkaTrader {
         const serverconfig = container.resolve("ConfigServer");
         const ragfairconfig = serverconfig.getConfig(ConfigTypes_1.ConfigTypes.RAGFAIR);
         ragfairconfig.traders["evgeshka"] = true;
-        const blacklistItems = ["enot_mark", "enot_afak", "enot_etg", "enot_kondor", "enot_maska", "evg_mail", "evg_mail_pack", "evg_saiga23", "evg_rhino_338", "evg_bossfinder", "evg_akmsu", "evg_fake_slick", "evg_fake_altyn", "evg_mag_airsoftpistol", "evg_rhino_338_cyl", "evg_saiga23_mag1", "evg_saiga23_mag2", "evg_saiga23_mag3", "evg_blackhole_case", "evg_blackhole_secure", "evg_weaponcase", "5780cf7f2459777de4559322", "5ede7a8229445733cb4c18e2", "5d235bb686f77443f4331278", "6087e570b998180e9f76dc24", "628a60ae6b1d481ff772e9c8", "576165642459773c7a400233", "62987dfc402c7f69bf010923", "5eff09cd30a7dc22fd1ddfed"];
+        const blacklistItems = ["enot_mark", "enot_afak", "enot_etg", "enot_kondor", "enot_maska", "evg_mail", "evg_mail_pack", "evg_saiga23", "evg_rhino_338", "evg_bossfinder", "evg_akmsu", "evg_fake_slick", "evg_fake_altyn", "evg_airsoftgun1", "evg_airsoftgun2", "evg_airsoftpistol", "evg_mag_airsoftpistol", "evg_rhino_338_cyl", "evg_saiga23_mag1", "evg_saiga23_mag2", "evg_saiga23_mag3", "evg_blackhole_case", "evg_blackhole_secure", "evg_weaponcase", "5780cf7f2459777de4559322", "5ede7a8229445733cb4c18e2", "5d235bb686f77443f4331278", "6087e570b998180e9f76dc24", "628a60ae6b1d481ff772e9c8", "576165642459773c7a400233", "62987dfc402c7f69bf010923", "5eff09cd30a7dc22fd1ddfed"];
         for (const item in blacklistItems) {
             ragfairconfig.dynamic.blacklist.custom.push(blacklistItems[item]);
+            db.templates.items[blacklistItems[item]]._props.CanSellOnRagfair = false;
         }
         ragfairconfig.dynamic.presetPrice.min = 1.1;
         ragfairconfig.dynamic.presetPrice.max = 1.3;
