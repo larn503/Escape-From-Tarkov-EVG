@@ -2,7 +2,7 @@
 	"name": "PlayerBossScav",
 	"author": "Lua",
 	"version": "3.0.1",
-	"akiVersion": "3.2.2",
+	"akiVersion": "3.2.3",
 	"license": "CC BY-NC-SA 4.0",
 	"main": "src/mod.js",
     "scripts": {

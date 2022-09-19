@@ -2,7 +2,7 @@
 	"name": "builtin_shader",
 	"author": "kmyuhkyuk",
 	"version": "1.4.0",
-	"akiVersion": "3.2.2",
+	"akiVersion": "3.2.3",
 	"license": "MIT",
 	"devdependences": {},
 	"main": "src/builtin_shader.js",

@@ -139,6 +139,24 @@ class EvgeshkaTrader {
             locale.preset.evg_akmsubuild_enot = {
                 "Name": "Enotiha Edition"
             };
+            locale.preset.evg_adar_jato = {
+                "Name": "JATO STYLE"
+            };
+            locale.preset.evg_mp133_sniper = {
+                "Name": "JATO SNIPER"
+            };
+            locale.preset.evg_stm_jato = {
+                "Name": "Голова/глаза"
+            };
+            locale.preset.evg_ak104_svet = {
+                "Name": "Ебучий свет"
+            };
+            locale.preset.evg_ak102_svet = {
+                "Name": "Ебучий свет"
+            };
+            locale.preset.evg_jato_svd = {
+                "Name": "Оса"
+            };
             for (const subText in modLocales.quest) {
                 const questText = modLocales.quest[subText];
                 locale.quest[questText._id] = questText;
@@ -469,7 +487,7 @@ class EvgeshkaTrader {
             traders[bosses[boss]].experience.standingForKill = -0.05;
         }
         const inraidconfig = serverconfig.getConfig(ConfigTypes_1.ConfigTypes.IN_RAID);
-        inraidconfig.scavExtractGain = 0.05;
+        inraidconfig.scavExtractGain = 0.06;
     }
     increaseHideout(container) {
         const db = container.resolve("DatabaseServer").getTables();
@@ -513,6 +531,28 @@ class EvgeshkaTrader {
             for (const armor in level6armor) {
                 armorvests[level6armor[armor]] /= 3;
             }
+            db.bots.types[side].inventory.equipment.Backpack = {
+                "544a5cde4bdc2d39388b456b": 10,
+                "545cdae64bdc2d39198b4568": 5,
+                "56e335e4d2720b6c058b456d": 13,
+                "56e33634d2720bd8058b456b": 1,
+                "56e33680d2720be2748b4576": 3,
+                "59e763f286f7742ee57895da": 8,
+                "5ab8ebf186f7742d8b372e80": 1,
+                "5b44c6ae86f7742d1627baea": 5,
+                "5c0e805e86f774683f3dd637": 1,
+                "5ca20d5986f774331e7c9602": 13,
+                "5d5d940f86f7742797262046": 1,
+                "5df8a4d786f77412672a1e3b": 1,
+                "5e9dcf5986f7746c417435b3": 13,
+                "5f5e467b0bc58666c37e7821": 5,
+                "5f5e46b96bdad616ad46d613": 1,
+                "6034d103ca006d2dca39b3f0": 1,
+                "6034d2d697633951dc245ea6": 2,
+                "6038d614d10cbf667352dd44": 1,
+                "60a272cc93ef783291411d8e": 3,
+                "618bb76513f5097c8d5aa2d5": 3
+            };
         }
     }
     levelImprove(container) {
