@@ -14,21 +14,22 @@ var __param = (this && this.__param) || function (paramIndex, decorator) {
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
-var PlayerBossScav_1, _a, _b, _c, _d, _e, _f, _g, _h, _j, _k;
+var PlayerBossScav_1;
+var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k;
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.PlayerBossScav = void 0;
-const tsyringe_1 = require("../../../../node_modules/tsyringe");
-const DatabaseServer_1 = require("../../../../Aki_data/Server/lib/servers/DatabaseServer");
-const SaveServer_1 = require("../../../../Aki_data/Server/lib/servers/SaveServer");
-const ILogger_1 = require("../../../../Aki_data/Server/lib/models/spt/utils/ILogger");
-const JsonUtil_1 = require("../../../../Aki_data/Server/lib/utils/JsonUtil");
-const PlayerScavGenerator_1 = require("../../../../Aki_data/Server/lib/generators/PlayerScavGenerator");
-const BotGenerator_1 = require("../../../../Aki_data/Server/lib/generators/BotGenerator");
-const ProfileHelper_1 = require("../../../../Aki_data/Server/lib/helpers/ProfileHelper");
-const BotHelper_1 = require("../../../../Aki_data/Server/lib/helpers/BotHelper");
-const FenceService_1 = require("../../../../Aki_data/Server/lib/services/FenceService");
-const ConfigServer_1 = require("../../../../Aki_data/Server/lib/servers/ConfigServer");
-const BotLootCacheService_1 = require("../../../../Aki_data/Server/lib/services/BotLootCacheService");
+const tsyringe_1 = require("C:/snapshot/project/node_modules/tsyringe");
+const DatabaseServer_1 = require("C:/snapshot/project/obj/servers/DatabaseServer");
+const SaveServer_1 = require("C:/snapshot/project/obj/servers/SaveServer");
+const ILogger_1 = require("C:/snapshot/project/obj/models/spt/utils/ILogger");
+const JsonUtil_1 = require("C:/snapshot/project/obj/utils/JsonUtil");
+const PlayerScavGenerator_1 = require("C:/snapshot/project/obj/generators/PlayerScavGenerator");
+const BotGenerator_1 = require("C:/snapshot/project/obj/generators/BotGenerator");
+const ProfileHelper_1 = require("C:/snapshot/project/obj/helpers/ProfileHelper");
+const BotHelper_1 = require("C:/snapshot/project/obj/helpers/BotHelper");
+const FenceService_1 = require("C:/snapshot/project/obj/services/FenceService");
+const ConfigServer_1 = require("C:/snapshot/project/obj/servers/ConfigServer");
+const BotLootCacheService_1 = require("C:/snapshot/project/obj/services/BotLootCacheService");
 const package_json_1 = __importDefault(require("../package.json"));
 const config_json_1 = __importDefault(require("../config/config.json"));
 let PlayerBossScav = PlayerBossScav_1 = class PlayerBossScav extends PlayerScavGenerator_1.PlayerScavGenerator {

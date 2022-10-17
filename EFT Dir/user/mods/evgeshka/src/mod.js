@@ -23,14 +23,14 @@ var __importStar = (this && this.__importStar) || function (mod) {
     return result;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const ConfigTypes_1 = require("../../../../Aki_data/Server/lib/models/enums/ConfigTypes");
+const ConfigTypes_1 = require("C:/snapshot/project/obj/models/enums/ConfigTypes");
 // The new trader config
 const baseJson = __importStar(require("../db/base.json"));
 const assortJson = __importStar(require("../db/assort.json"));
 const dialogueJson = __importStar(require("../db/dialogue.json"));
 const questassortJson = __importStar(require("../db/questassort.json"));
 const textJson = __importStar(require("../db/text.json"));
-const LogBackgroundColor_1 = require("../../../../Aki_data/Server/lib/models/spt/logging/LogBackgroundColor");
+const LogBackgroundColor_1 = require("C:/snapshot/project/obj/models/spt/logging/LogBackgroundColor");
 //import * as questsJson from "../db/quests.json";
 class EvgeshkaTrader {
     constructor() {
@@ -424,7 +424,7 @@ class EvgeshkaTrader {
             botConfig.pmc.dynamicLoot.blacklist.push(blacklistItems[item]);
         }
         botConfig.pmc.convertIntoPmcChance.assault.min = 0.22; // more pmc tweak
-        botConfig.maxBotCap = this.config.maxBots;
+        botConfig.equipment.pmc.blacklist[0].equipment["mod_nvg"] = ["5c110624d174af029e69734c"];
     }
     ragfairEvgeshka(container) {
         const db = container.resolve("DatabaseServer").getTables();

@@ -9,14 +9,17 @@ import { IGetProfileRequestData } from "../models/eft/match/IGetProfileRequestDa
 import { IJoinMatchRequestData } from "../models/eft/match/IJoinMatchRequestData";
 import { IJoinMatchResult } from "../models/eft/match/IJoinMatchResult";
 import { IStartOfflineRaidRequestData } from "../models/eft/match/IStartOffineRaidRequestData";
+import { BotDifficulty } from "../models/enums/BotDifficulty";
 import { IBotConfig } from "../models/spt/config/IBotConfig";
 import { IInRaidConfig } from "../models/spt/config/IInRaidConfig";
 import { IMatchConfig } from "../models/spt/config/IMatchConfig";
 import { ILogger } from "../models/spt/utils/ILogger";
 import { ConfigServer } from "../servers/ConfigServer";
 import { SaveServer } from "../servers/SaveServer";
+import { BotGenerationCacheService } from "../services/BotGenerationCacheService";
 import { BotLootCacheService } from "../services/BotLootCacheService";
 import { MatchLocationService } from "../services/MatchLocationService";
+import { PmcAiService } from "../services/PmcAiService";
 import { ProfileSnapshotService } from "../services/ProfileSnapshotService";
 export declare class MatchController {
     protected logger: ILogger;
@@ -27,11 +30,13 @@ export declare class MatchController {
     protected botLootCacheService: BotLootCacheService;
     protected configServer: ConfigServer;
     protected profileSnapshotService: ProfileSnapshotService;
+    protected pmcAiService: PmcAiService;
+    protected botGenerationCacheService: BotGenerationCacheService;
     protected applicationContext: ApplicationContext;
     protected matchConfig: IMatchConfig;
     protected inraidConfig: IInRaidConfig;
     protected botConfig: IBotConfig;
-    constructor(logger: ILogger, saveServer: SaveServer, profileHelper: ProfileHelper, matchLocationService: MatchLocationService, traderHelper: TraderHelper, botLootCacheService: BotLootCacheService, configServer: ConfigServer, profileSnapshotService: ProfileSnapshotService, applicationContext: ApplicationContext);
+    constructor(logger: ILogger, saveServer: SaveServer, profileHelper: ProfileHelper, matchLocationService: MatchLocationService, traderHelper: TraderHelper, botLootCacheService: BotLootCacheService, configServer: ConfigServer, profileSnapshotService: ProfileSnapshotService, pmcAiService: PmcAiService, botGenerationCacheService: BotGenerationCacheService, applicationContext: ApplicationContext);
     getEnabled(): boolean;
     getProfile(info: IGetProfileRequestData): IPmcData[];
     createGroup(sessionID: string, info: ICreateGroupRequestData): any;
@@ -40,5 +45,11 @@ export declare class MatchController {
     protected getMatch(location: string): any;
     getGroupStatus(info: IGetGroupStatusRequestData): any;
     startOfflineRaid(info: IStartOfflineRaidRequestData, sessionID: string): void;
+    /**
+     * Convert a difficulty value from pre-raid screen to a bot difficulty
+     * @param botDifficulty dropdown difficulty
+     * @returns bot difficulty
+     */
+    protected convertDifficultyDropdownIntoBotDifficulty(botDifficulty: BotDifficulty): string;
     endOfflineRaid(info: IEndOfflineRaidRequestData, sessionID: string): void;
 }

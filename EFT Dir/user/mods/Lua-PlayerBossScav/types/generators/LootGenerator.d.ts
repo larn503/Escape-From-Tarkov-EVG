@@ -6,14 +6,16 @@ import { LootRequest } from "../models/spt/services/LootRequest";
 import { ILogger } from "../models/spt/utils/ILogger";
 import { DatabaseServer } from "../servers/DatabaseServer";
 import { ItemFilterService } from "../services/ItemFilterService";
+import { HashUtil } from "../utils/HashUtil";
 import { RandomUtil } from "../utils/RandomUtil";
 export declare class LootGenerator {
     protected logger: ILogger;
+    protected hashUtil: HashUtil;
     protected databaseServer: DatabaseServer;
     protected randomUtil: RandomUtil;
     protected itemHelper: ItemHelper;
     protected itemFilterService: ItemFilterService;
-    constructor(logger: ILogger, databaseServer: DatabaseServer, randomUtil: RandomUtil, itemHelper: ItemHelper, itemFilterService: ItemFilterService);
+    constructor(logger: ILogger, hashUtil: HashUtil, databaseServer: DatabaseServer, randomUtil: RandomUtil, itemHelper: ItemHelper, itemFilterService: ItemFilterService);
     /**
      * Generate a list of items based on options passed in
      * @param options parameters to adjust what loot is generated
@@ -33,23 +35,25 @@ export declare class LootGenerator {
      * Find a random item in items.json and add to result array
      * @param items items to choose from
      * @param itemTypeCounts item limit counts
+     * @param options item filters
      * @param result array to add found item to
      * @returns true if item was valid and added to pool
      */
     protected findAndAddRandomItemToLoot(items: [string, ITemplateItem][], itemTypeCounts: Record<string, {
         current: number;
         max: number;
-    }>, result: LootItem[]): boolean;
+    }>, options: LootRequest, result: LootItem[]): boolean;
     /**
      *
      * Find a random item in items.json and add to result array
      * @param globalDefaultPresets presets to choose from
      * @param itemTypeCounts item limit counts
+     * @param itemBlacklist items to skip
      * @param result array to add found preset to
      * @returns true if preset was valid and added to pool
      */
     protected findAndAddRandomPresetToLoot(globalDefaultPresets: [string, Preset][], itemTypeCounts: Record<string, {
         current: number;
         max: number;
-    }>, result: LootItem[]): boolean;
+    }>, itemBlacklist: string[], result: LootItem[]): boolean;
 }

@@ -483,7 +483,7 @@ class EvgeshkaTrader implements IPreAkiLoadMod, IPostDBLoadMod {
         }
 
         botConfig.pmc.convertIntoPmcChance.assault.min = 0.22  // more pmc tweak
-        botConfig.maxBotCap = this.config.maxBots
+        botConfig.equipment.pmc.blacklist[0].equipment["mod_nvg"] = ["5c110624d174af029e69734c"]
     }
 
     private ragfairEvgeshka(container: DependencyContainer) : void {

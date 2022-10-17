@@ -2,7 +2,7 @@
     "name": "ScavMapAccessKeyPatcher",
     "author": "Lua",
     "version": "1.0.1",
-    "akiVersion": "3.2.3",
+    "akiVersion": "3.2.4",
     "license": "CC BY-NC-SA 4.0",
     "main": "src/mod.js",
     "scripts": {
