@@ -94,7 +94,8 @@ class EvgeshkaTrader {
         //item and economy fixes and tweaks 
         this.doAirsoftBuff(container);
         this.ragfairEvgeshka(container);
-        this.ragfairPriceChanger(container);
+        if (this.config.ragfairFix)
+            this.ragfairPriceChanger(container);
         this.fenceNerf(container);
         tables.templates.items["55d7217a4bdc2d86028b456d"]._props.Slots[5]._props.filters[0].Filter.push("evg_fake_altyn");
         tables.templates.items["55d7217a4bdc2d86028b456d"]._props.Slots[2]._props.filters[0].Filter.push("evg_rhino_338");
@@ -104,7 +105,8 @@ class EvgeshkaTrader {
         tables.templates.items["5857a8bc2459772bad15db29"]._props.DiscardingBlock = true;
         this.setNewWeaponMastering(container);
         this.removeExclusiveItemsFromPmc(container);
-        this.worsePmcArmor(container);
+        if (this.config.pmcLootRework)
+            this.worsePmcArmor(container);
         // Add presets
         const itempresetsJson = require("../db/globals.json");
         for (const preset in itempresetsJson.ItemPresets) {
@@ -170,8 +172,10 @@ class EvgeshkaTrader {
             //this.logger.info("evg_bossfinder description on " + locale + " is " + locale.templates["evg_bossfinder"].Description);
         }
         //Misc
-        this.increaseHideout(container);
-        this.fixScavEquip(container);
+        if (this.config.hideoutSpeedup)
+            this.increaseHideout(container);
+        if (this.config.scavLootRework)
+            this.fixScavEquip(container);
         tables.globals.config.SkillMinEffectiveness = 0.33;
         tables.globals.config.SkillsSettings.SkillProgressRate = 1.3;
         tables.globals.config.SkillsSettings.Metabolism.EnergyRecoveryRate = 0.2;
@@ -312,7 +316,7 @@ class EvgeshkaTrader {
                     };
                     const pmcData = pHelp.getPmcProfile(sessionId);
                     if (pmcData.Health && pmcData.Info) {
-                        if (pmcData.Quests.find(x => (x.qid == "jatolegend" && x.status == 4))) {
+                        if (pmcData.Quests.find(x => (x.qid == "jatolegend" && x.status == 4)) && pmcData.Info.Level >= 35) {
                             for (const bodyPart in pmcData.Health.BodyParts) {
                                 if (bodyPart == "Head") {
                                     pmcData.Health.BodyParts[bodyPart].Health.Maximum = defaultParts[bodyPart] + ((pmcData.Info.Level - 35) * 3);
@@ -424,7 +428,6 @@ class EvgeshkaTrader {
             botConfig.pmc.dynamicLoot.blacklist.push(blacklistItems[item]);
         }
         botConfig.pmc.convertIntoPmcChance.assault.min = 0.22; // more pmc tweak
-        botConfig.equipment.pmc.blacklist[0].equipment["mod_nvg"] = ["5c110624d174af029e69734c"];
     }
     ragfairEvgeshka(container) {
         const db = container.resolve("DatabaseServer").getTables();
@@ -593,6 +596,17 @@ class EvgeshkaTrader {
             "6034d0230ca681766b6a0fb5": 30,
             "603648ff5a45383c122086ac": 5,
             "6040dd4ddcf9592f401632d2": 5
+        };
+        db.bots.types.assault.inventory.equipment.ArmorVest = {
+            "5648a7494bdc2d9d488b4583": 30,
+            "59e7635f86f7742cbf2c1095": 20,
+            "5ab8e4ed86f7742d8e50c7fa": 30,
+            "5ab8e79e86f7742d8b372e78": 5,
+            "5b44d22286f774172b0c9de8": 25,
+            "5c0e53c886f7747fa54205c7": 20,
+            "5c0e5edb86f77461f55ed1f7": 25,
+            "5df8a2ca86f7740bfe6df777": 25,
+            "609e8540d5c319764c2bc2e9": 10
         };
     }
 }

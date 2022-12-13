@@ -1,11 +1,11 @@
 {
   "appearance": {
-    "body": [
-      "Grozaplayerdormbody11111"
-    ],
-    "feet": [
-      "Grozaplayerdormleg111111"
-    ],
+    "body": {
+      "Grozaplayerdormbody11111": 1
+    },
+    "feet": {
+      "Grozaplayerdormleg111111": 1
+    },
     "hands": [
       "Grozaplayerdormhands1111"
     ],
@@ -141,12 +141,12 @@
     },
     "equipment": {
       "Headwear": {
-        "5aa7e276e5b5b000171d0647": 1,
-		"5f60c74e3b85f6263c145586": 1,
-		"5ca20ee186f774799474abc2": 1,
-		"5c091a4e0db834001d5addc8": 1,
-		"5a154d5cfcdbcb001a3b00da": 1,
-		"5ac8d6885acfc400180ae7b0": 1
+      "5aa7e276e5b5b000171d0647": 1,
+      "5f60c74e3b85f6263c145586": 1,
+      "5ca20ee186f774799474abc2": 1,
+      "5c091a4e0db834001d5addc8": 1,
+      "5a154d5cfcdbcb001a3b00da": 1,
+      "5ac8d6885acfc400180ae7b0": 1
       },
       "Earpiece": {
 		  "5e4d34ca86f774264f758330": 1,
@@ -157,9 +157,9 @@
 	  },
       "ArmorVest": {
         "5c0e541586f7747fa54205c9": 1,
-		"5fd4c474dd870108a754b241": 1,
-		"6038b4ca92ec1c3103795a0d": 1,
-		"5f5f41476bdad616ad46d631": 1
+        "5fd4c474dd870108a754b241": 1,
+        "6038b4ca92ec1c3103795a0d": 1,
+        "5f5f41476bdad616ad46d631": 1
       },
       "Eyewear": {
 		"enot_kondor": 1
@@ -168,8 +168,8 @@
       "TacticalVest": {
         "5ca20abf86f77418567a43f2": 1,
         "5c0e9f2c86f77432297fe0a3": 1,
-		"5ab8dab586f77441cd04f2a2": 1,
-		"5648a69d4bdc2ded0b8b457b": 1
+        "5ab8dab586f77441cd04f2a2": 1,
+        "5648a69d4bdc2ded0b8b457b": 1
       },
       "Backpack": {
 		"56e33634d2720bd8058b456b": 1,
@@ -624,16 +624,16 @@
       ],
       "Pockets": [
         "enot_etg",
-		"enot_afak",
-		"enot_mark",
-        "5448be9a4bdc2dfd2f8b456a",
-		"618a431df1eb8e24b8741deb",
-		"617fd91e5539a84ec44ce155",
-        "590c5f0d86f77413997acfab",
-		"60098ad7c2240c0fe85c570a",
-		"5751a89d24597722aa0e8db0",
-		"5c0e534186f7747fa1419867",
-		"5c0e530286f7747fa1419862"
+      "enot_afak",
+      "enot_mark",
+          "5448be9a4bdc2dfd2f8b456a",
+      "618a431df1eb8e24b8741deb",
+      "617fd91e5539a84ec44ce155",
+          "590c5f0d86f77413997acfab",
+      "60098ad7c2240c0fe85c570a",
+      "5751a89d24597722aa0e8db0",
+      "5c0e534186f7747fa1419867",
+      "5c0e530286f7747fa1419862"
       ],
       "Backpack": [
         "5addaffe86f77470b455f900",

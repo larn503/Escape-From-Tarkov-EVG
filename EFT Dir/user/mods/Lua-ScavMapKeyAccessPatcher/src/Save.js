@@ -9,10 +9,22 @@ class Save {
     constructor(container, logger) {
         this.container = container;
         this.logger = logger;
+        this.location = "undefined";
     }
     load() {
         this.logger.debug("Loading Save Patching...");
         const staticRouterModService = this.container.resolve("StaticRouterModService");
+        staticRouterModService.registerStaticRouter("Lua-ScavMapKeyAccessPatcher-/client/match/offline/end", [
+            {
+                url: "/client/match/offline/end",
+                action: (url, info, sessionID, output) => {
+                    const saveServer = this.container.resolve("SaveServer");
+                    const profile = saveServer.getProfile(sessionID);
+                    this.location = profile.inraid.location;
+                    return output;
+                }
+            }
+        ], "aki");
         staticRouterModService.registerStaticRouter("Lua-ScavMapKeyAccessPatcher-/raid/profile/save", [
             {
                 url: "/raid/profile/save",
@@ -25,24 +37,27 @@ class Save {
         this.logger.debug("Completed Save Patching...");
     }
     PatchSave(offraidData, sessionID) {
+        if (!this.location) {
+            return;
+        }
         const saveServer = this.container.resolve("SaveServer");
         const profile = saveServer.getProfile(sessionID);
         const pmcData = profile.characters.pmc;
-        const profileFile = this.container.resolve("JsonUtil").deserialize(this.container.resolve("VFS").readFile(`user/profiles/${sessionID}.json`)); // Cover your eyes
-        profile.inraid.location = profileFile.inraid.location; // need to grab from file instead of saveserver, weirdly.
-        const locationName = profile.inraid.location.toLowerCase();
+        //const profileFile = this.container.resolve<JsonUtil>("JsonUtil").deserialize( this.container.resolve<VFS>("VFS").readFile(`user/profiles/${sessionID}.json`) ); // Cover your eyes
         //const mapKey = this.container.resolve<DatabaseServer>("DatabaseServer").getTables()?.locations[locationName]?.base?.AccessKeys[0] || "none";
-        const mapKey = config_json_1.default[locationName].AccessKey;
+        this.logger.debug("Player is scav?: " + offraidData.isPlayerScav);
+        this.logger.debug("Current map from config: " + this.location);
+        const mapKey = config_json_1.default[this.location].AccessKey;
         if (!offraidData.isPlayerScav) {
             this.logger.debug("Not an scav raid, skipping...");
             return;
         }
         if (!mapKey || mapKey === "none") {
-            this.logger.warning("No raid location info found from the server, no access key were removed...");
+            this.logger.debug("No raid location info found from the server, no access key were removed...");
             return;
         }
-        if (!config_json_1.default[locationName]?.RemoveAccessKeyAfterRaid) {
-            this.logger.debug(`"${locationName}" has access key with no removeal config, skipping...`);
+        if (!config_json_1.default[this.location]?.RemoveAccessKeyAfterRaid) {
+            this.logger.debug(`"${this.location}" has access key with no removeal config, skipping...`);
             return;
         }
         for (const i in pmcData.Inventory.items) {

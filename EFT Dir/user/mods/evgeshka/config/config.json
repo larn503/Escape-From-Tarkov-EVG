@@ -2,5 +2,9 @@
     "bossChanceIncrease": true,
     "scavRework": true,
     "animeMode": false,
-    "levelImprove": true
+    "levelImprove": true,
+    "scavLootRework": true,
+    "pmcLootRework": true,
+    "hideoutSpeedup": true,
+    "ragfairFix": true
 }

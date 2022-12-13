@@ -18,6 +18,44 @@ export class ClientHandler
     load(): void
     {
         this.logger.debug("Loading ClientHandler...");
+    
+        const staticRouterModService = this.container.resolve<StaticRouterModService>("StaticRouterModService");
+        const httpResponseUtil = this.container.resolve<HttpResponseUtil>("HttpResponseUtil");
+
+        staticRouterModService.registerStaticRouter(
+            "Lua-ScavMapKeyAccessPatcher-/Lua/ScavMapAccessKeyPatcher/config",
+            [
+                {
+                    url: "/Lua/ScavMapAccessKeyPatcher/config",
+                    action: (url, info, sessionID, output): any => 
+                    {
+                        return JSON.stringify(this.getMapConfig());
+                    }
+                }
+            ],
+            "Lua-ScavMapKeyAccessPatcher"
+        );
+
+        staticRouterModService.registerStaticRouter(
+            "Lua-ScavMapKeyAccessPatcher-/Lua/ScavMapAccessKeyPatcher/maptime",
+            [
+                {
+                    url: "/Lua/ScavMapAccessKeyPatcher/maptime",
+                    action: (url, info, sessionID, output): any => 
+                    {
+                        return JSON.stringify(this.getMapTime());
+                    }
+                }
+            ],
+            "Lua-ScavMapKeyAccessPatcher"
+        );
+
+        this.logger.debug("Completed ClientHandler Loading...");
+        
+    }
+
+    public getMapTime(): any
+    {
         const databaseServer = this.container.resolve<DatabaseServer>("DatabaseServer");
         const tables = databaseServer.getTables();
         if (!evgcfg.scavRework) {
@@ -34,42 +72,6 @@ export class ClientHandler
                 this.raidmaplist[map] = tables.locations[map].base.EscapeTimeLimit
             }
         }
-        const staticRouterModService = this.container.resolve<StaticRouterModService>("StaticRouterModService");
-        const httpResponseUtil = this.container.resolve<HttpResponseUtil>("HttpResponseUtil");
-
-        staticRouterModService.registerStaticRouter(
-            "Lua-ScavMapKeyAccessPatcher-/Lua/ScavMapAccessKeyPatcher/config/",
-            [
-                {
-                    url: "/Lua/ScavMapAccessKeyPatcher/config",
-                    action: (url: string, info: any, sessionID: string, output: string): any => 
-                    {
-                        return httpResponseUtil.noBody(this.getMapConfig());
-                    }
-                }
-            ],
-            "Lua-ScavMapKeyAccessPatcher"
-        );
-
-        staticRouterModService.registerStaticRouter(
-            "Lua-ScavMapKeyAccessPatcher-/Lua/ScavMapAccessKeyPatcher/maptime/",
-            [
-                {
-                    url: "/Lua/ScavMapAccessKeyPatcher/maptime",
-                    action: (url: string, info: any, sessionID: string, output: string): any => 
-                    {
-                        return httpResponseUtil.noBody(this.getMapTime());
-                    }
-                }
-            ],
-            "Lua-ScavMapKeyAccessPatcher"
-        );
-
-        this.logger.debug("Completed ClientHandler Loading...");
-    }
-
-    public getMapTime(): any
-    {
         this.logger.debug(`Sending maptime to client...\n${this.raidmaplist}`);
         return this.raidmaplist;
     }

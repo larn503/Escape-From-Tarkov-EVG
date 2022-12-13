@@ -32,6 +32,7 @@ const ConfigServer_1 = require("C:/snapshot/project/obj/servers/ConfigServer");
 const BotLootCacheService_1 = require("C:/snapshot/project/obj/services/BotLootCacheService");
 const package_json_1 = __importDefault(require("../package.json"));
 const config_json_1 = __importDefault(require("../config/config.json"));
+const crypto_1 = require("crypto");
 let PlayerBossScav = PlayerBossScav_1 = class PlayerBossScav extends PlayerScavGenerator_1.PlayerScavGenerator {
     constructor(logger, databaseServer, saveServer, profileHelper, botHelper, jsonUtil, fenceService, botLootCacheService, botGenerator, configServer) {
         super(logger, databaseServer, saveServer, profileHelper, botHelper, jsonUtil, fenceService, botLootCacheService, botGenerator, configServer);
@@ -334,6 +335,10 @@ let PlayerBossScav = PlayerBossScav_1 = class PlayerBossScav extends PlayerScavG
         if (botTypeForLoot === baseScavType) {
             if (assaultBase.inventory.equipment.Scabbard["6087e570b998180e9f76dc24"] != null) { // fix for tagilla's hammer
                 delete assaultBase.inventory.equipment.Scabbard["6087e570b998180e9f76dc24"];
+            }
+            if (baseScavType != "assault" && Object.keys(assaultBase.inventory.equipment.Backpack).length == 0 && (0, crypto_1.randomInt)(10) > 3) {
+                assaultBase.inventory.equipment.Backpack = botTable.usec.inventory.equipment.Backpack;
+                assaultBase.chances.equipment.Backpack = 100;
             }
             return assaultBase;
         }

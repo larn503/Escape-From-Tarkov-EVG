@@ -23,9 +23,11 @@ namespace Lua.ScavMapAccessKeyPatcher
         [PatchPrefix]
         private static void PrefixPatch(RaidSettings ___raidSettings_0)
         {
+            Logger.LogMessage("Started");
             if (mapConfig == null)
             {
                 var json = RequestHandler.GetJson("/Lua/ScavMapAccessKeyPatcher/config");
+                Logger.LogMessage(json);
                 mapConfig = JsonConvert.DeserializeObject<Locations>(json);
             }
             if (mapTime == null)
@@ -33,6 +35,8 @@ namespace Lua.ScavMapAccessKeyPatcher
                 var json = RequestHandler.GetJson("/Lua/ScavMapAccessKeyPatcher/maptime");
                 mapTime = JsonConvert.DeserializeObject<Locations>(json);
             }
+            Logger.LogMessage("GotConfigs");
+            Logger.LogMessage("Bigmap Time: " + mapTime.bigmap);
 
             side = ___raidSettings_0.Side;
             itemKey = ___raidSettings_0.SelectedLocation.AccessKeys;

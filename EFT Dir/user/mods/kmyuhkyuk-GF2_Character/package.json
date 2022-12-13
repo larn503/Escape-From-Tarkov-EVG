@@ -2,7 +2,7 @@
 	"name": "GF2_Character",
 	"author": "kmyuhkyuk",
 	"version": "2.0.0",
-	"akiVersion": "3.2.4",
+	"akiVersion": "3.3.0",
 	"license": "GNU LGPLv3",
 	"devdependences": {
 		"@types/node": "^14.15.3",

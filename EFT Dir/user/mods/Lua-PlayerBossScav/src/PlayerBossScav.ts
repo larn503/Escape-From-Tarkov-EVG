@@ -19,6 +19,7 @@ import { BotLootCacheService } from "@spt-aki/services/BotLootCacheService";
 
 import pkg from "../package.json";
 import modConfig from "../config/config.json";
+import { randomInt } from "crypto";
 
 @injectable()
 export class PlayerBossScav extends PlayerScavGenerator
@@ -380,12 +381,15 @@ export class PlayerBossScav extends PlayerScavGenerator
                 }
             }
         }
-
         // Loot bot is same as base bot, return base with no modification
         if (botTypeForLoot === baseScavType)
         {
-            if(assaultBase.inventory.equipment.Scabbard["6087e570b998180e9f76dc24"] != null) {            // fix for tagilla's hammer
+            if (assaultBase.inventory.equipment.Scabbard["6087e570b998180e9f76dc24"] != null) {            // fix for tagilla's hammer
                 delete assaultBase.inventory.equipment.Scabbard["6087e570b998180e9f76dc24"]
+            }
+            if (baseScavType != "assault" && Object.keys(assaultBase.inventory.equipment.Backpack).length == 0 && randomInt(10) > 3) {
+                assaultBase.inventory.equipment.Backpack = botTable.usec.inventory.equipment.Backpack
+                assaultBase.chances.equipment.Backpack = 100
             }
             return assaultBase;
         }

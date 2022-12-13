@@ -6,14 +6,20 @@ export interface IPmcConfig {
     looseWeaponInBackpackChancePercent: number;
     looseWeaponInBackpackLootMinMax: MinMax;
     isUsec: number;
-    chanceSameSideIsHostilePercent: number;
     usecType: string;
     bearType: string;
+    chanceSameSideIsHostilePercent: number;
+    /** key: location, value: type for usec/bear */
+    pmcType: Record<string, Record<string, Record<string, number>>>;
     maxBackpackLootTotalRub: number;
     maxPocketLootTotalRub: number;
     maxVestLootTotalRub: number;
     convertIntoPmcChance: Record<string, MinMax>;
     enemyTypes: string[];
+}
+export interface PmcTypes {
+    usec: string;
+    bear: string;
 }
 export interface DynamicLoot {
     whitelist: string[];

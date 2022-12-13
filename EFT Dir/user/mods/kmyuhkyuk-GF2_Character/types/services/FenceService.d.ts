@@ -3,6 +3,8 @@ import { ItemHelper } from "../helpers/ItemHelper";
 import { PresetHelper } from "../helpers/PresetHelper";
 import { FenceLevel } from "../models/eft/common/IGlobals";
 import { IPmcData } from "../models/eft/common/IPmcData";
+import { Item } from "../models/eft/common/tables/IItem";
+import { ITemplateItem } from "../models/eft/common/tables/ITemplateItem";
 import { ITraderAssort } from "../models/eft/common/tables/ITrader";
 import { ITraderConfig } from "../models/spt/config/ITraderConfig";
 import { ILogger } from "../models/spt/utils/ILogger";
@@ -42,6 +44,13 @@ export declare class FenceService {
      */
     getFenceAssorts(pmcProfile: IPmcData): ITraderAssort;
     /**
+     * Adjust assorts price by a modifier
+     * @param item
+     * @param assort
+     * @param modifier
+     */
+    protected adjustItemPriceByModifier(item: Item, assort: ITraderAssort, modifier: number): void;
+    /**
      * Get fence assorts with no price adjustments based on fence rep
      * @returns ITraderAssort
      */
@@ -55,6 +64,17 @@ export declare class FenceService {
      * Replace a percentage of fence assorts with freshly generated items
      */
     performPartialRefresh(): void;
+    /**
+     * Increment fence next refresh timestamp by current timestamp + partialRefreshTimeSeconds from config
+     */
+    protected incrementPartialRefreshTime(): void;
+    /**
+     * Compare the current fence offer count to what the config wants it to be,
+     * If value is lower add extra count to value to generate more items to fill gap
+     * @param existingItemCountToReplace count of items to generate
+     * @returns number of items to generate
+     */
+    protected getCountOfItemsToGenerate(existingItemCountToReplace: number): number;
     /**
      * Choose an item (not mod) at random and remove from assorts
      */
@@ -85,6 +105,21 @@ export declare class FenceService {
      * @param assorts object to add assorts to
      */
     protected createAssorts(assortCount: number, assorts: ITraderAssort): void;
+    /**
+     * Randomise items' upd properties e.g. med packs/weapons/armor
+     * @param itemDetails Item being randomised
+     * @param itemToAdjust Item being edited
+     */
+    protected randomiseItemUpdProperties(itemDetails: ITemplateItem, itemToAdjust: Item): void;
+    /**
+     * Construct item limit record to hold max and current item count
+     * @param limits limits as defined in config
+     * @returns record, key: item tplId, value: current/max item count allowed
+     */
+    protected initItemLimitCounter(limits: Record<string, number>): Record<string, {
+        current: number;
+        max: number;
+    }>;
     /**
      * Get the next update timestamp for fence
      * @returns future timestamp

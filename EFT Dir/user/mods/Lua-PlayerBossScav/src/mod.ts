@@ -1,5 +1,7 @@
+/* eslint-disable @typescript-eslint/indent */
 import { DependencyContainer } from "tsyringe";
 import { IPostDBLoadMod } from "@spt-aki/models/external/IPostDBLoadMod";
+import { IPreAkiLoadMod } from "@spt-aki/models/external/IPreAkiLoadMod";
 import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
 import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
 import { StaticRouterModService } from "@spt-aki/services/mod/staticRouter/StaticRouterModService";
@@ -19,10 +21,36 @@ import pkg from "../package.json";
 import modConfig from "../config/config.json";
 import evgConfig from "../../evgeshka/config/config.json"
 
-class Mod implements IPostDBLoadMod
+class Mod implements IPostDBLoadMod, IPreAkiLoadMod
 {
 	protected modName = `${pkg.author}-${pkg.name}`;
 	private static container: DependencyContainer;
+
+	public preAkiLoad(container: DependencyContainer): void {
+		//Replace scav generation method
+		container.afterResolution("PlayerScavGenerator", (_t, playerScavGenerator: PlayerScavGenerator) => { 
+			playerScavGenerator.generate = this.generate;
+		}, { frequency: "Always" });
+
+		//Hook game start router
+		if (modConfig.GenerateScavProfileOnStartup === true)
+		{
+			container.resolve<StaticRouterModService>("StaticRouterModService").registerStaticRouter(
+				`${this.modName}-/client/game/start`,
+				[
+					{
+						url: "/client/game/start",
+						action: (url: string, info: any, sessionID: string, output: string): any => 
+						{
+							this.generate(sessionID);
+							return output;
+						}
+					}
+				],
+				"aki"
+			);
+		}
+	}
 
     public postDBLoad(container: DependencyContainer): void
 	{
@@ -67,30 +95,7 @@ class Mod implements IPostDBLoadMod
 		if(modConfig.ScavPlayCooldown >= 0) {
 			tables.globals.config.SavagePlayCooldown = modConfig.ScavPlayCooldown < 0 ? 0 : modConfig.ScavPlayCooldown;
 		}
-		
-		// Replace scav generation method
-		container.afterResolution("PlayerScavGenerator", (_t, playerScavGenerator: PlayerScavGenerator) => { 
-			playerScavGenerator.generate = this.generate;
-		}, { frequency: "Always" });
 
-		// Hook game start router
-		if (modConfig.GenerateScavProfileOnStartup === true)
-		{
-			container.resolve<StaticRouterModService>("StaticRouterModService").registerStaticRouter(
-				`${this.modName}-/client/game/start`,
-				[
-					{
-						url: "/client/game/start",
-						action: (url: string, info: any, sessionID: string, output: string): any => 
-						{
-							this.generate(sessionID);
-							return output;
-						}
-					}
-				],
-				"aki"
-			);
-		}
 	}
 
 	public generate(sessionID: string): IPmcData

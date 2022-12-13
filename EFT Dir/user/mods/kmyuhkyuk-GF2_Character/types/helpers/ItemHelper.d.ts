@@ -5,6 +5,7 @@ import { IStaticAmmoDetails } from "../models/eft/common/tables/ILootBase";
 import { ITemplateItem } from "../models/eft/common/tables/ITemplateItem";
 import { ILogger } from "../models/spt/utils/ILogger";
 import { DatabaseServer } from "../servers/DatabaseServer";
+import { LocaleService } from "../services/LocaleService";
 import { HashUtil } from "../utils/HashUtil";
 import { JsonUtil } from "../utils/JsonUtil";
 import { MathUtil } from "../utils/MathUtil";
@@ -18,9 +19,10 @@ declare class ItemHelper {
     protected objectId: ObjectId;
     protected mathUtil: MathUtil;
     protected databaseServer: DatabaseServer;
-    constructor(logger: ILogger, hashUtil: HashUtil, jsonUtil: JsonUtil, randomUtil: RandomUtil, objectId: ObjectId, mathUtil: MathUtil, databaseServer: DatabaseServer);
+    protected localeService: LocaleService;
+    constructor(logger: ILogger, hashUtil: HashUtil, jsonUtil: JsonUtil, randomUtil: RandomUtil, objectId: ObjectId, mathUtil: MathUtil, databaseServer: DatabaseServer, localeService: LocaleService);
     /**
-     * Checks if a id is a valid item. Valid meaning that it's an item that be stored in stash
+     * Checks if an id is a valid item. Valid meaning that it's an item that be stored in stash
      * @param       {string}    tpl       the template id / tpl
      * @returns                             boolean; true for items that may be in player posession and not quest items
      */
@@ -79,6 +81,11 @@ declare class ItemHelper {
      * @returns {array}                     The array of StackSlotItems
      */
     generateItemsFromStackSlot(item: ITemplateItem, parentId: string): Item[];
+    /**
+     * Get cloned copy of all item data from items.json
+     * @returns array of ITemplateItem objects
+     */
+    getItems(): ITemplateItem[];
     /**
      * Gets item data from items.json
      * @param tpl items template id to look up
@@ -207,6 +214,12 @@ declare class ItemHelper {
      * @returns size of stack
      */
     getItemStackSize(item: Item): number;
+    /**
+     * Get the name of an item from the locale file using the item tpl
+     * @param itemTpl Tpl of item to get name of
+     * @returns Name of item
+     */
+    getItemName(itemTpl: string): string;
 }
 declare namespace ItemHelper {
     interface ItemSize {

@@ -11,6 +11,24 @@ class Mod {
     constructor() {
         this.modName = `${package_json_1.default.author}-${package_json_1.default.name}`;
     }
+    preAkiLoad(container) {
+        //Replace scav generation method
+        container.afterResolution("PlayerScavGenerator", (_t, playerScavGenerator) => {
+            playerScavGenerator.generate = this.generate;
+        }, { frequency: "Always" });
+        //Hook game start router
+        if (config_json_1.default.GenerateScavProfileOnStartup === true) {
+            container.resolve("StaticRouterModService").registerStaticRouter(`${this.modName}-/client/game/start`, [
+                {
+                    url: "/client/game/start",
+                    action: (url, info, sessionID, output) => {
+                        this.generate(sessionID);
+                        return output;
+                    }
+                }
+            ], "aki");
+        }
+    }
     postDBLoad(container) {
         // SPT 3.0.0
         Mod.container = container;
@@ -44,22 +62,6 @@ class Mod {
         // Scav Cooldown
         if (config_json_1.default.ScavPlayCooldown >= 0) {
             tables.globals.config.SavagePlayCooldown = config_json_1.default.ScavPlayCooldown < 0 ? 0 : config_json_1.default.ScavPlayCooldown;
-        }
-        // Replace scav generation method
-        container.afterResolution("PlayerScavGenerator", (_t, playerScavGenerator) => {
-            playerScavGenerator.generate = this.generate;
-        }, { frequency: "Always" });
-        // Hook game start router
-        if (config_json_1.default.GenerateScavProfileOnStartup === true) {
-            container.resolve("StaticRouterModService").registerStaticRouter(`${this.modName}-/client/game/start`, [
-                {
-                    url: "/client/game/start",
-                    action: (url, info, sessionID, output) => {
-                        this.generate(sessionID);
-                        return output;
-                    }
-                }
-            ], "aki");
         }
     }
     generate(sessionID) {

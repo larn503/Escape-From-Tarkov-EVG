@@ -423,6 +423,50 @@
 			],
 			"_encyclopedia": "evg_airsoftgun2"
 		  },
+		  "5b439b1f86f7744fd8059cbe": {
+			"_id": "5b439b1f86f7744fd8059cbe",
+			"_type": "Preset",
+			"_changeWeaponName": false,
+			"_name": "Glock_18C",
+			"_parent": "Glock17Airsoft",
+			"_items": [
+			  {
+				"_id": "Glock17Airsoft",
+				"_tpl": "evg_airsoftpistol"
+			  },
+			  {
+				"_id": "5b439b1f86f7744fd8059cc7",
+				"_tpl": "5a6b60158dc32e000a31138b",
+				"parentId": "Glock17Airsoft",
+				"slotId": "mod_barrel"
+			  },
+			  {
+				"_id": "5b439b1f86f7744fd8059cc8",
+				"_tpl": "5a6f5e048dc32e00094b97da",
+				"parentId": "Glock17Airsoft",
+				"slotId": "mod_reciever"
+			  },
+			  {
+				"_id": "5b439b1f86f7744fd8059cc9",
+				"_tpl": "5a6f5d528dc32e00094b97d9",
+				"parentId": "5b439b1f86f7744fd8059cc8",
+				"slotId": "mod_sight_rear"
+			  },
+			  {
+				"_id": "5b439b1f86f7744fd8059cca",
+				"_tpl": "5a6f58f68dc32e000a311390",
+				"parentId": "5b439b1f86f7744fd8059cc8",
+				"slotId": "mod_sight_front"
+			  },
+			  {
+				"_id": "5b439b1f86f7744fd8059ccb",
+				"_tpl": "evg_mag_airsoftpistol",
+				"parentId": "Glock17Airsoft",
+				"slotId": "mod_magazine"
+			  }
+			],
+			"_encyclopedia": "evg_airsoftpistol"
+		  },
 		  "evg_akmsubuild": {
 			"_id": "evg_akmsubuild",
 			"_type": "Preset",
